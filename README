@@ -1,0 +1,18 @@
+Description:
+- 3 files (ProjectData.csv, Assignments.csv, Tasks.csv) will be generated after running the script.
+- Data will always be appended to file until error occurs.
+- This script use generator instead of list for very good performance and lowest memory usage.
+- You can change endpoints URL, output file path in the script.
+
+How to run the script:
+1. Install required modules:
+    $ pip3 install -r requirements.txt
+2. Run the script:
+    $ python3 run.py
+
+How to run simulation server (in case you need):
+1. Go to simulation folder.
+2. Install required modules:
+    $ pip3 install -r requirements.txt
+3. Run the script:
+    $ uvicorn api_simulation:app

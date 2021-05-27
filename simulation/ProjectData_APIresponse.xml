@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+	<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects</id>
+	<title type="text">Projects</title>
+	<updated>2021-05-20T08:59:33Z</updated>
+	<link rel="self" title="Projects" href="Projects"/>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')</id>
+		<category term="ReportingData.Project" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Project" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentBaselines" type="application/atom+xml;type=feed" title="AssignmentBaselines" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/AssignmentBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Deliverables" type="application/atom+xml;type=feed" title="Deliverables" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Deliverables"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Dependencies" type="application/atom+xml;type=feed" title="Dependencies" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Dependencies"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/StagesInfo" type="application/atom+xml;type=feed" title="StagesInfo" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/StagesInfo"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Tasks" type="application/atom+xml;type=feed" title="Tasks" href="Projects(guid'ab8c3e20-7555-eb11-bf8f-00155d342a09')/Tasks"/>
+		<title/>
+		<updated>2021-05-20T08:59:33Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">ab8c3e20-7555-eb11-bf8f-00155d342a09</d:ProjectId>
+				<d:EnterpriseProjectTypeDescription m:null="true"/>
+				<d:EnterpriseProjectTypeId m:type="Edm.Guid">72137f58-f578-e911-b07b-00155d604104</d:EnterpriseProjectTypeId>
+				<d:EnterpriseProjectTypeIsDefault m:type="Edm.Boolean">false</d:EnterpriseProjectTypeIsDefault>
+				<d:EnterpriseProjectTypeName>Base Business</d:EnterpriseProjectTypeName>
+				<d:OptimizerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:OptimizerDecisionName m:null="true"/>
+				<d:OptimizerSolutionName m:null="true"/>
+				<d:ParentProjectId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:PlannerDecisionName m:null="true"/>
+				<d:PlannerEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerSolutionName m:null="true"/>
+				<d:PlannerStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualCost m:type="Edm.Decimal">0.000000</d:ProjectActualCost>
+				<d:ProjectActualDuration m:type="Edm.Decimal">0.000000</d:ProjectActualDuration>
+				<d:ProjectActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeCost>
+				<d:ProjectActualOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeWork>
+				<d:ProjectActualRegularCost m:type="Edm.Decimal">0.000000</d:ProjectActualRegularCost>
+				<d:ProjectActualRegularWork m:type="Edm.Decimal">0.000000</d:ProjectActualRegularWork>
+				<d:ProjectActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualWork m:type="Edm.Decimal">0.000000</d:ProjectActualWork>
+				<d:ProjectACWP m:type="Edm.Decimal">0.000000</d:ProjectACWP>
+				<d:ProjectAuthorName>John Smith</d:ProjectAuthorName>
+				<d:ProjectBCWP m:type="Edm.Decimal">0.000000</d:ProjectBCWP>
+				<d:ProjectBCWS m:type="Edm.Decimal">0.000000</d:ProjectBCWS>
+				<d:ProjectBudgetCost m:type="Edm.Decimal">0.000000</d:ProjectBudgetCost>
+				<d:ProjectBudgetWork m:type="Edm.Decimal">0.000000</d:ProjectBudgetWork>
+				<d:ProjectCalculationsAreStale m:type="Edm.Boolean">false</d:ProjectCalculationsAreStale>
+				<d:ProjectCalendarDuration m:type="Edm.Int32">1073</d:ProjectCalendarDuration>
+				<d:ProjectCategoryName m:null="true"/>
+				<d:ProjectCompanyName m:null="true"/>
+				<d:ProjectCost m:type="Edm.Decimal">0.000000</d:ProjectCost>
+				<d:ProjectCostVariance m:type="Edm.Decimal">0.000000</d:ProjectCostVariance>
+				<d:ProjectCPI m:type="Edm.Decimal">0.000000</d:ProjectCPI>
+				<d:ProjectCreatedDate m:type="Edm.DateTime">2021-01-13T07:58:36.357</d:ProjectCreatedDate>
+				<d:ProjectCurrency>USD</d:ProjectCurrency>
+				<d:ProjectCV m:type="Edm.Decimal">0.000000</d:ProjectCV>
+				<d:ProjectCVP m:type="Edm.Decimal">0.0000000000000</d:ProjectCVP>
+				<d:ProjectDescription m:null="true"/>
+				<d:ProjectDuration m:type="Edm.Decimal">4472.000000</d:ProjectDuration>
+				<d:ProjectDurationVariance m:type="Edm.Decimal">4472.000000</d:ProjectDurationVariance>
+				<d:ProjectEAC m:type="Edm.Decimal">0.000000</d:ProjectEAC>
+				<d:ProjectEarlyFinish m:type="Edm.DateTime">2021-02-25T17:00:00</d:ProjectEarlyFinish>
+				<d:ProjectEarlyStart m:type="Edm.DateTime">2019-01-07T08:00:00</d:ProjectEarlyStart>
+				<d:ProjectEarnedValueIsStale m:type="Edm.Boolean">false</d:ProjectEarnedValueIsStale>
+				<d:ProjectEnterpriseFeatures m:type="Edm.Boolean">true</d:ProjectEnterpriseFeatures>
+				<d:ProjectFinishDate m:type="Edm.DateTime">2021-02-25T17:00:00</d:ProjectFinishDate>
+				<d:ProjectFinishVariance m:type="Edm.Decimal">0.000000</d:ProjectFinishVariance>
+				<d:ProjectFixedCost m:type="Edm.Decimal">0.000000</d:ProjectFixedCost>
+				<d:ProjectIdentifier>EBIS-BB-0196</d:ProjectIdentifier>
+				<d:ProjectKeywords m:null="true"/>
+				<d:ProjectLateFinish m:type="Edm.DateTime">2021-02-25T17:00:00</d:ProjectLateFinish>
+				<d:ProjectLateStart m:type="Edm.DateTime">2021-01-12T08:00:00</d:ProjectLateStart>
+				<d:ProjectLastPublishedDate m:type="Edm.DateTime">2021-04-16T01:10:40.997</d:ProjectLastPublishedDate>
+				<d:ProjectManagerName m:null="true"/>
+				<d:ProjectModifiedDate m:type="Edm.DateTime">2021-01-13T08:01:56.473</d:ProjectModifiedDate>
+				<d:ProjectName>OPS IT DA&amp;A SCE support and maintenance - TS</d:ProjectName>
+				<d:ProjectOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectOvertimeCost>
+				<d:ProjectOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectOvertimeWork>
+				<d:ProjectOwnerId m:type="Edm.Guid">3ed33e9f-37a5-ea11-b08b-00155d602d05</d:ProjectOwnerId>
+				<d:ProjectOwnerName>John Smith</d:ProjectOwnerName>
+				<d:ProjectPercentCompleted m:type="Edm.Int16">0</d:ProjectPercentCompleted>
+				<d:ProjectPercentWorkCompleted m:type="Edm.Int16">0</d:ProjectPercentWorkCompleted>
+				<d:ProjectRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRegularCost>
+				<d:ProjectRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRegularWork>
+				<d:ProjectRemainingCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingCost>
+				<d:ProjectRemainingDuration m:type="Edm.Decimal">4472.000000</d:ProjectRemainingDuration>
+				<d:ProjectRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeCost>
+				<d:ProjectRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeWork>
+				<d:ProjectRemainingRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularCost>
+				<d:ProjectRemainingRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularWork>
+				<d:ProjectRemainingWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingWork>
+				<d:ProjectResourcePlanWork m:type="Edm.Decimal">0.000000</d:ProjectResourcePlanWork>
+				<d:ProjectSPI m:type="Edm.Decimal">0.000000</d:ProjectSPI>
+				<d:ProjectStartDate m:type="Edm.DateTime">2021-01-12T00:00:00</d:ProjectStartDate>
+				<d:ProjectStartVariance m:type="Edm.Decimal">0.000000</d:ProjectStartVariance>
+				<d:ProjectStatusDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectSubject m:null="true"/>
+				<d:ProjectSV m:type="Edm.Decimal">0.000000</d:ProjectSV>
+				<d:ProjectSVP m:type="Edm.Decimal">0.0000000000000</d:ProjectSVP>
+				<d:ProjectTCPI m:type="Edm.Decimal">0.000000</d:ProjectTCPI>
+				<d:ProjectTimephased m:null="true"/>
+				<d:ProjectTitle>OPS IT DA&amp;A SCE support and maintenance - TS</d:ProjectTitle>
+				<d:ProjectType m:type="Edm.Int32">0</d:ProjectType>
+				<d:ProjectVAC m:type="Edm.Decimal">0.000000</d:ProjectVAC>
+				<d:ProjectWork m:type="Edm.Decimal">0.000000</d:ProjectWork>
+				<d:ProjectWorkspaceInternalUrl>https://myprojects.sharepoint.com/teams/gpols/OPS IT DAA SCE support and maintenance - TS</d:ProjectWorkspaceInternalUrl>
+				<d:ProjectWorkVariance m:type="Edm.Decimal">0.000000</d:ProjectWorkVariance>
+				<d:ResourcePlanUtilizationDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ResourcePlanUtilizationType m:type="Edm.Int16">0</d:ResourcePlanUtilizationType>
+				<d:WorkflowCreatedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:WorkflowError m:null="true"/>
+				<d:WorkflowErrorResponseCode m:type="Edm.Int16" m:null="true"/>
+				<d:WorkflowInstanceId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerName m:null="true"/>
+				<d:ProjectDepartments m:null="true"/>
+				<d:CostHealth>Green</d:CostHealth>
+				<d:IssueHealth>Green</d:IssueHealth>
+				<d:NeedsStaffing m:type="Edm.Boolean" m:null="true"/>
+				<d:OverallHealth>Green</d:OverallHealth>
+				<d:Portfolio m:null="true"/>
+				<d:ProjectStatus m:null="true"/>
+				<d:ResourceHealth>Green</d:ResourceHealth>
+				<d:ROI m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleHealth>No Baseline</d:ScheduleHealth>
+				<d:State>1) Requested</d:State>
+				<d:TotalBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:TotalCost m:type="Edm.Decimal" m:null="true"/>
+				<d:WorkHealth>Green</d:WorkHealth>
+				<d:IdeaIntakeID>EBIS- IDEA - 322</d:IdeaIntakeID>
+				<d:InvestmentType>Base Business</d:InvestmentType>
+				<d:BusinessNeedProblemDescription>DA&amp;A SCE support and maintenance - TS - OPS IT</d:BusinessNeedProblemDescription>
+				<d:PriorityProject m:null="true"/>
+				<d:ValueStatement m:null="true"/>
+				<d:SponsoringFunction m:null="true"/>
+				<d:InvestmentOwner m:null="true"/>
+				<d:BusinessLead m:null="true"/>
+				<d:EBISDepartment>OPS IT</d:EBISDepartment>
+				<d:SubDepartment m:null="true"/>
+				<d:ProjectLead>John Smith</d:ProjectLead>
+				<d:ProjectPriority m:null="true"/>
+				<d:LikelihoodofOccurence m:null="true"/>
+				<d:IncludedinBusinessPlan m:null="true"/>
+				<d:ComplianceRelated m:null="true"/>
+				<d:InScope m:null="true"/>
+				<d:OutofScope m:null="true"/>
+				<d:ValueStream m:null="true"/>
+				<d:SystemsImpacted m:null="true"/>
+				<d:FBPID m:type="Edm.Decimal">106.000000</d:FBPID>
+				<d:ApprovedBudgetCapital m:type="Edm.Decimal">0.000000</d:ApprovedBudgetCapital>
+				<d:ApprovedBudgetExpense m:type="Edm.Decimal">800000.000000</d:ApprovedBudgetExpense>
+				<d:EstimateBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:StrategicInvestment m:null="true"/>
+				<d:EBISInstantisID m:null="true"/>
+				<d:ITInstantisPMTID m:null="true"/>
+				<d:RequestedBy m:null="true"/>
+				<d:ProjectComments m:null="true"/>
+				<d:PlannedStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannedEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:Assumptions m:null="true"/>
+				<d:Dependencies1 m:null="true"/>
+				<d:PlannedCapital m:type="Edm.Decimal">0.000000</d:PlannedCapital>
+				<d:PlannedExpense m:type="Edm.Decimal">675000.000000</d:PlannedExpense>
+				<d:Stage>Idea</d:Stage>
+				<d:RiskScore m:null="true"/>
+				<d:PriorityScore m:type="Edm.Decimal" m:null="true"/>
+				<d:LikelihoodScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ComplianceScore m:type="Edm.Decimal" m:null="true"/>
+				<d:PrioritizationScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleManagement>Red</d:ScheduleManagement>
+				<d:FinancialManagement>Green</d:FinancialManagement>
+				<d:UpdatedBudgetCapital m:type="Edm.Decimal">0.000000</d:UpdatedBudgetCapital>
+				<d:ActualsExpense m:type="Edm.Decimal">0.000000</d:ActualsExpense>
+				<d:ActualsCapital m:type="Edm.Decimal">0.000000</d:ActualsCapital>
+				<d:UpdatedBudgetExpense m:type="Edm.Decimal">675000.000000</d:UpdatedBudgetExpense>
+				<d:CommittedCapital m:type="Edm.Decimal" m:null="true"/>
+				<d:Program m:null="true"/>
+				<d:ProjectIdeasID m:null="true"/>
+				<d:IdeaIntakeIDduplicate>EA - 322</d:IdeaIntakeIDduplicate>
+				<d:ZeroBudgetProject>No</d:ZeroBudgetProject>
+				<d:QoBV1 m:null="true"/>
+				<d:QoBV2 m:null="true"/>
+				<d:QoBV3 m:null="true"/>
+				<d:FPXproject m:type="Edm.Boolean" m:null="true"/>
+				<d:FPXCoachname m:null="true"/>
+				<d:FPXPLCertificationdate m:type="Edm.DateTime" m:null="true"/>
+				<d:FPXPLTrainingdate m:type="Edm.DateTime" m:null="true"/>
+				<d:EfficiencyProvider m:type="Edm.Boolean" m:null="true"/>
+				<d:ProjectSponsor m:null="true"/>
+				<d:CommentOverall m:null="true"/>
+				<d:CommentSchedule m:null="true"/>
+				<d:CommentScope m:null="true"/>
+				<d:CommentFinance m:null="true"/>
+				<d:PrimarySponsor>DA&amp;A</d:PrimarySponsor>
+				<d:PotentialSavings m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')</id>
+		<category term="ReportingData.Project" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Project" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentBaselines" type="application/atom+xml;type=feed" title="AssignmentBaselines" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/AssignmentBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Deliverables" type="application/atom+xml;type=feed" title="Deliverables" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Deliverables"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Dependencies" type="application/atom+xml;type=feed" title="Dependencies" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Dependencies"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/StagesInfo" type="application/atom+xml;type=feed" title="StagesInfo" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/StagesInfo"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Tasks" type="application/atom+xml;type=feed" title="Tasks" href="Projects(guid'86c12ae0-8be3-e911-b082-00155d343010')/Tasks"/>
+		<title/>
+		<updated>2021-05-20T08:59:33Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">86c12ae0-8be3-e911-b082-00155d343010</d:ProjectId>
+				<d:EnterpriseProjectTypeDescription m:null="true"/>
+				<d:EnterpriseProjectTypeId m:type="Edm.Guid">a931eae9-f478-e911-b07a-00155d642512</d:EnterpriseProjectTypeId>
+				<d:EnterpriseProjectTypeIsDefault m:type="Edm.Boolean">false</d:EnterpriseProjectTypeIsDefault>
+				<d:EnterpriseProjectTypeName>Project</d:EnterpriseProjectTypeName>
+				<d:OptimizerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:OptimizerDecisionName m:null="true"/>
+				<d:OptimizerSolutionName m:null="true"/>
+				<d:ParentProjectId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:PlannerDecisionName m:null="true"/>
+				<d:PlannerEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerSolutionName m:null="true"/>
+				<d:PlannerStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualCost m:type="Edm.Decimal">0.000000</d:ProjectActualCost>
+				<d:ProjectActualDuration m:type="Edm.Decimal">1280.000000</d:ProjectActualDuration>
+				<d:ProjectActualFinishDate m:type="Edm.DateTime">2020-01-31T17:00:00</d:ProjectActualFinishDate>
+				<d:ProjectActualOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeCost>
+				<d:ProjectActualOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeWork>
+				<d:ProjectActualRegularCost m:type="Edm.Decimal">0.000000</d:ProjectActualRegularCost>
+				<d:ProjectActualRegularWork m:type="Edm.Decimal">1448.000000</d:ProjectActualRegularWork>
+				<d:ProjectActualStartDate m:type="Edm.DateTime">2019-06-24T08:00:00</d:ProjectActualStartDate>
+				<d:ProjectActualWork m:type="Edm.Decimal">1448.000000</d:ProjectActualWork>
+				<d:ProjectACWP m:type="Edm.Decimal">0.000000</d:ProjectACWP>
+				<d:ProjectAuthorName>John Smith</d:ProjectAuthorName>
+				<d:ProjectBCWP m:type="Edm.Decimal">0.000000</d:ProjectBCWP>
+				<d:ProjectBCWS m:type="Edm.Decimal">0.000000</d:ProjectBCWS>
+				<d:ProjectBudgetCost m:type="Edm.Decimal">0.000000</d:ProjectBudgetCost>
+				<d:ProjectBudgetWork m:type="Edm.Decimal">0.000000</d:ProjectBudgetWork>
+				<d:ProjectCalculationsAreStale m:type="Edm.Boolean">false</d:ProjectCalculationsAreStale>
+				<d:ProjectCalendarDuration m:type="Edm.Int32">4569</d:ProjectCalendarDuration>
+				<d:ProjectCategoryName m:null="true"/>
+				<d:ProjectCompanyName m:null="true"/>
+				<d:ProjectCost m:type="Edm.Decimal">0.000000</d:ProjectCost>
+				<d:ProjectCostVariance m:type="Edm.Decimal">0.000000</d:ProjectCostVariance>
+				<d:ProjectCPI m:type="Edm.Decimal">0.000000</d:ProjectCPI>
+				<d:ProjectCreatedDate m:type="Edm.DateTime">2019-09-30T14:09:13.503</d:ProjectCreatedDate>
+				<d:ProjectCurrency>USD</d:ProjectCurrency>
+				<d:ProjectCV m:type="Edm.Decimal">0.000000</d:ProjectCV>
+				<d:ProjectCVP m:type="Edm.Decimal">0.0000000000000</d:ProjectCVP>
+				<d:ProjectDescription m:null="true"/>
+				<d:ProjectDuration m:type="Edm.Decimal">1280.000000</d:ProjectDuration>
+				<d:ProjectDurationVariance m:type="Edm.Decimal">192.000000</d:ProjectDurationVariance>
+				<d:ProjectEAC m:type="Edm.Decimal">0.000000</d:ProjectEAC>
+				<d:ProjectEarlyFinish m:type="Edm.DateTime">2020-01-31T17:00:00</d:ProjectEarlyFinish>
+				<d:ProjectEarlyStart m:type="Edm.DateTime">2019-06-24T08:00:00</d:ProjectEarlyStart>
+				<d:ProjectEarnedValueIsStale m:type="Edm.Boolean">false</d:ProjectEarnedValueIsStale>
+				<d:ProjectEnterpriseFeatures m:type="Edm.Boolean">true</d:ProjectEnterpriseFeatures>
+				<d:ProjectFinishDate m:type="Edm.DateTime">2020-01-31T17:00:00</d:ProjectFinishDate>
+				<d:ProjectFinishVariance m:type="Edm.Decimal">192.000000</d:ProjectFinishVariance>
+				<d:ProjectFixedCost m:type="Edm.Decimal">0.000000</d:ProjectFixedCost>
+				<d:ProjectIdentifier>EBIS-PRJ-0043</d:ProjectIdentifier>
+				<d:ProjectKeywords m:null="true"/>
+				<d:ProjectLateFinish m:type="Edm.DateTime">2020-01-31T17:00:00</d:ProjectLateFinish>
+				<d:ProjectLateStart m:type="Edm.DateTime">2019-06-24T08:00:00</d:ProjectLateStart>
+				<d:ProjectLastPublishedDate m:type="Edm.DateTime">2021-03-03T15:39:05.923</d:ProjectLastPublishedDate>
+				<d:ProjectManagerName m:null="true"/>
+				<d:ProjectModifiedDate m:type="Edm.DateTime">2020-06-09T14:27:45.887</d:ProjectModifiedDate>
+				<d:ProjectName>Adjudication Selection Project RFP</d:ProjectName>
+				<d:ProjectOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectOvertimeCost>
+				<d:ProjectOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectOvertimeWork>
+				<d:ProjectOwnerId m:type="Edm.Guid">652fb9b3-91a4-e911-b074-00155d689638</d:ProjectOwnerId>
+				<d:ProjectOwnerName>John Smith</d:ProjectOwnerName>
+				<d:ProjectPercentCompleted m:type="Edm.Int16">100</d:ProjectPercentCompleted>
+				<d:ProjectPercentWorkCompleted m:type="Edm.Int16">100</d:ProjectPercentWorkCompleted>
+				<d:ProjectRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRegularCost>
+				<d:ProjectRegularWork m:type="Edm.Decimal">1448.000000</d:ProjectRegularWork>
+				<d:ProjectRemainingCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingCost>
+				<d:ProjectRemainingDuration m:type="Edm.Decimal">0.000000</d:ProjectRemainingDuration>
+				<d:ProjectRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeCost>
+				<d:ProjectRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeWork>
+				<d:ProjectRemainingRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularCost>
+				<d:ProjectRemainingRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularWork>
+				<d:ProjectRemainingWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingWork>
+				<d:ProjectResourcePlanWork m:type="Edm.Decimal">0.000000</d:ProjectResourcePlanWork>
+				<d:ProjectSPI m:type="Edm.Decimal">0.000000</d:ProjectSPI>
+				<d:ProjectStartDate m:type="Edm.DateTime">2019-07-25T08:00:00</d:ProjectStartDate>
+				<d:ProjectStartVariance m:type="Edm.Decimal">0.000000</d:ProjectStartVariance>
+				<d:ProjectStatusDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectSubject m:null="true"/>
+				<d:ProjectSV m:type="Edm.Decimal">0.000000</d:ProjectSV>
+				<d:ProjectSVP m:type="Edm.Decimal">0.0000000000000</d:ProjectSVP>
+				<d:ProjectTCPI m:type="Edm.Decimal">0.000000</d:ProjectTCPI>
+				<d:ProjectTimephased m:null="true"/>
+				<d:ProjectTitle>Adjudication Selection Project RFP</d:ProjectTitle>
+				<d:ProjectType m:type="Edm.Int32">0</d:ProjectType>
+				<d:ProjectVAC m:type="Edm.Decimal">0.000000</d:ProjectVAC>
+				<d:ProjectWork m:type="Edm.Decimal">1448.000000</d:ProjectWork>
+				<d:ProjectWorkspaceInternalUrl>https://myprojects.sharepoint.com/teams/gpols/eAdjudication Selection Project RFP</d:ProjectWorkspaceInternalUrl>
+				<d:ProjectWorkVariance m:type="Edm.Decimal">-184.000000</d:ProjectWorkVariance>
+				<d:ResourcePlanUtilizationDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ResourcePlanUtilizationType m:type="Edm.Int16">0</d:ResourcePlanUtilizationType>
+				<d:WorkflowCreatedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:WorkflowError m:null="true"/>
+				<d:WorkflowErrorResponseCode m:type="Edm.Int16" m:null="true"/>
+				<d:WorkflowInstanceId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerName m:null="true"/>
+				<d:ProjectDepartments m:null="true"/>
+				<d:CostHealth>Green</d:CostHealth>
+				<d:IssueHealth>Green</d:IssueHealth>
+				<d:NeedsStaffing m:type="Edm.Boolean">false</d:NeedsStaffing>
+				<d:OverallHealth>Green</d:OverallHealth>
+				<d:Portfolio m:null="true"/>
+				<d:ProjectStatus m:null="true"/>
+				<d:ResourceHealth>Green</d:ResourceHealth>
+				<d:ROI m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleHealth>Complete</d:ScheduleHealth>
+				<d:State>1) Requested</d:State>
+				<d:TotalBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:TotalCost m:type="Edm.Decimal" m:null="true"/>
+				<d:WorkHealth>Green</d:WorkHealth>
+				<d:IdeaIntakeID>EBIS- IDEA - 141</d:IdeaIntakeID>
+				<d:InvestmentType>Project</d:InvestmentType>
+				<d:BusinessNeedProblemDescription xml:space="preserve">ABCS</d:BusinessNeedProblemDescription>
+				<d:PriorityProject m:null="true"/>
+				<d:ValueStatement>Identify vendors that CRO's</d:ValueStatement>
+				<d:SponsoringFunction>EBIS</d:SponsoringFunction>
+				<d:InvestmentOwner>John Smith</d:InvestmentOwner>
+				<d:BusinessLead m:null="true"/>
+				<d:EBISDepartment>CDS</d:EBISDepartment>
+				<d:SubDepartment m:null="true"/>
+				<d:ProjectLead>John Smith</d:ProjectLead>
+				<d:ProjectPriority m:null="true"/>
+				<d:LikelihoodofOccurence>&lt;30%</d:LikelihoodofOccurence>
+				<d:IncludedinBusinessPlan>Yes</d:IncludedinBusinessPlan>
+				<d:ComplianceRelated>No</d:ComplianceRelated>
+				<d:InScope xml:space="preserve"> RFP including: Ethical, AGMednet, IBM Merge and Bioclinica</d:InScope>
+				<d:OutofScope xml:space="preserve"> Vendors other than: Ethical, AGMednet, IBM Merge and Bioclinica</d:OutofScope>
+				<d:ValueStream m:null="true"/>
+				<d:SystemsImpacted m:null="true"/>
+				<d:FBPID m:type="Edm.Decimal" m:null="true"/>
+				<d:ApprovedBudgetCapital m:type="Edm.Decimal">0.000000</d:ApprovedBudgetCapital>
+				<d:ApprovedBudgetExpense m:type="Edm.Decimal">0.000000</d:ApprovedBudgetExpense>
+				<d:EstimateBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:StrategicInvestment m:null="true"/>
+				<d:EBISInstantisID m:null="true"/>
+				<d:ITInstantisPMTID m:null="true"/>
+				<d:RequestedBy m:null="true"/>
+				<d:ProjectComments xml:space="preserve">Lack of participation from Extended Team members Not able to assess how the tool works in real life due to limited data in Live Demo </d:ProjectComments>
+				<d:PlannedStartDate m:type="Edm.DateTime">2019-07-22T08:00:00</d:PlannedStartDate>
+				<d:PlannedEndDate m:type="Edm.DateTime">2019-12-16T08:00:00</d:PlannedEndDate>
+				<d:Assumptions m:null="true"/>
+				<d:Dependencies1 m:null="true"/>
+				<d:PlannedCapital m:type="Edm.Decimal">0.000000</d:PlannedCapital>
+				<d:PlannedExpense m:type="Edm.Decimal">0.000000</d:PlannedExpense>
+				<d:Stage>On Hold</d:Stage>
+				<d:RiskScore>Low</d:RiskScore>
+				<d:PriorityScore m:type="Edm.Decimal" m:null="true"/>
+				<d:LikelihoodScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ComplianceScore m:type="Edm.Decimal" m:null="true"/>
+				<d:PrioritizationScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleManagement>Red</d:ScheduleManagement>
+				<d:FinancialManagement>Green</d:FinancialManagement>
+				<d:UpdatedBudgetCapital m:type="Edm.Decimal">0.000000</d:UpdatedBudgetCapital>
+				<d:ActualsExpense m:type="Edm.Decimal">0.000000</d:ActualsExpense>
+				<d:ActualsCapital m:type="Edm.Decimal">0.000000</d:ActualsCapital>
+				<d:UpdatedBudgetExpense m:type="Edm.Decimal">0.000000</d:UpdatedBudgetExpense>
+				<d:CommittedCapital m:type="Edm.Decimal" m:null="true"/>
+				<d:Program m:null="true"/>
+				<d:ProjectIdeasID m:null="true"/>
+				<d:IdeaIntakeIDduplicate>EA - 141</d:IdeaIntakeIDduplicate>
+				<d:ZeroBudgetProject>Yes</d:ZeroBudgetProject>
+				<d:QoBV1 m:null="true"/>
+				<d:QoBV2 m:null="true"/>
+				<d:QoBV3 m:null="true"/>
+				<d:FPXproject m:type="Edm.Boolean" m:null="true"/>
+				<d:FPXCoachname m:null="true"/>
+				<d:FPXPLCertificationdate m:type="Edm.DateTime" m:null="true"/>
+				<d:FPXPLTrainingdate m:type="Edm.DateTime" m:null="true"/>
+				<d:EfficiencyProvider m:type="Edm.Boolean" m:null="true"/>
+				<d:ProjectSponsor m:null="true"/>
+				<d:CommentOverall m:null="true"/>
+				<d:CommentSchedule m:null="true"/>
+				<d:CommentScope m:null="true"/>
+				<d:CommentFinance m:null="true"/>
+				<d:PrimarySponsor m:null="true"/>
+				<d:PotentialSavings m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')</id>
+		<category term="ReportingData.Project" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Project" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentBaselines" type="application/atom+xml;type=feed" title="AssignmentBaselines" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/AssignmentBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Deliverables" type="application/atom+xml;type=feed" title="Deliverables" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Deliverables"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Dependencies" type="application/atom+xml;type=feed" title="Dependencies" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Dependencies"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/StagesInfo" type="application/atom+xml;type=feed" title="StagesInfo" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/StagesInfo"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Tasks" type="application/atom+xml;type=feed" title="Tasks" href="Projects(guid'52dd0d51-bb50-eb11-bf83-00155d3432c6')/Tasks"/>
+		<title/>
+		<updated>2021-05-20T08:59:33Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">52dd0d51-bb50-eb11-bf83-00155d3432c6</d:ProjectId>
+				<d:EnterpriseProjectTypeDescription m:null="true"/>
+				<d:EnterpriseProjectTypeId m:type="Edm.Guid">a931eae9-f478-e911-b07a-00155d642512</d:EnterpriseProjectTypeId>
+				<d:EnterpriseProjectTypeIsDefault m:type="Edm.Boolean">false</d:EnterpriseProjectTypeIsDefault>
+				<d:EnterpriseProjectTypeName>Project</d:EnterpriseProjectTypeName>
+				<d:OptimizerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:OptimizerDecisionName m:null="true"/>
+				<d:OptimizerSolutionName m:null="true"/>
+				<d:ParentProjectId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:PlannerDecisionName m:null="true"/>
+				<d:PlannerEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerSolutionName m:null="true"/>
+				<d:PlannerStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualCost m:type="Edm.Decimal">0.000000</d:ProjectActualCost>
+				<d:ProjectActualDuration m:type="Edm.Decimal">0.000000</d:ProjectActualDuration>
+				<d:ProjectActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeCost>
+				<d:ProjectActualOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeWork>
+				<d:ProjectActualRegularCost m:type="Edm.Decimal">0.000000</d:ProjectActualRegularCost>
+				<d:ProjectActualRegularWork m:type="Edm.Decimal">0.000000</d:ProjectActualRegularWork>
+				<d:ProjectActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualWork m:type="Edm.Decimal">0.000000</d:ProjectActualWork>
+				<d:ProjectACWP m:type="Edm.Decimal">0.000000</d:ProjectACWP>
+				<d:ProjectAuthorName>John Smith</d:ProjectAuthorName>
+				<d:ProjectBCWP m:type="Edm.Decimal">0.000000</d:ProjectBCWP>
+				<d:ProjectBCWS m:type="Edm.Decimal">0.000000</d:ProjectBCWS>
+				<d:ProjectBudgetCost m:type="Edm.Decimal">0.000000</d:ProjectBudgetCost>
+				<d:ProjectBudgetWork m:type="Edm.Decimal">0.000000</d:ProjectBudgetWork>
+				<d:ProjectCalculationsAreStale m:type="Edm.Boolean">false</d:ProjectCalculationsAreStale>
+				<d:ProjectCalendarDuration m:type="Edm.Int32">17</d:ProjectCalendarDuration>
+				<d:ProjectCategoryName m:null="true"/>
+				<d:ProjectCompanyName m:null="true"/>
+				<d:ProjectCost m:type="Edm.Decimal">0.000000</d:ProjectCost>
+				<d:ProjectCostVariance m:type="Edm.Decimal">0.000000</d:ProjectCostVariance>
+				<d:ProjectCPI m:type="Edm.Decimal">0.000000</d:ProjectCPI>
+				<d:ProjectCreatedDate m:type="Edm.DateTime">2021-01-07T07:38:24.107</d:ProjectCreatedDate>
+				<d:ProjectCurrency>USD</d:ProjectCurrency>
+				<d:ProjectCV m:type="Edm.Decimal">0.000000</d:ProjectCV>
+				<d:ProjectCVP m:type="Edm.Decimal">0.0000000000000</d:ProjectCVP>
+				<d:ProjectDescription>creation of an API or multiple APIs</d:ProjectDescription>
+				<d:ProjectDuration m:type="Edm.Decimal">8.000000</d:ProjectDuration>
+				<d:ProjectDurationVariance m:type="Edm.Decimal">8.000000</d:ProjectDurationVariance>
+				<d:ProjectEAC m:type="Edm.Decimal">0.000000</d:ProjectEAC>
+				<d:ProjectEarlyFinish m:type="Edm.DateTime">2021-01-06T17:00:00</d:ProjectEarlyFinish>
+				<d:ProjectEarlyStart m:type="Edm.DateTime">2021-01-06T08:00:00</d:ProjectEarlyStart>
+				<d:ProjectEarnedValueIsStale m:type="Edm.Boolean">false</d:ProjectEarnedValueIsStale>
+				<d:ProjectEnterpriseFeatures m:type="Edm.Boolean">true</d:ProjectEnterpriseFeatures>
+				<d:ProjectFinishDate m:type="Edm.DateTime">2021-01-06T17:00:00</d:ProjectFinishDate>
+				<d:ProjectFinishVariance m:type="Edm.Decimal">0.000000</d:ProjectFinishVariance>
+				<d:ProjectFixedCost m:type="Edm.Decimal">0.000000</d:ProjectFixedCost>
+				<d:ProjectIdentifier>EBIS-PRJ-0115</d:ProjectIdentifier>
+				<d:ProjectKeywords m:null="true"/>
+				<d:ProjectLateFinish m:type="Edm.DateTime">2021-01-06T17:00:00</d:ProjectLateFinish>
+				<d:ProjectLateStart m:type="Edm.DateTime">2021-01-06T08:00:00</d:ProjectLateStart>
+				<d:ProjectLastPublishedDate m:type="Edm.DateTime">2021-03-03T16:38:06.553</d:ProjectLastPublishedDate>
+				<d:ProjectManagerName m:null="true"/>
+				<d:ProjectModifiedDate m:type="Edm.DateTime">2021-01-07T07:41:04.023</d:ProjectModifiedDate>
+				<d:ProjectName>insertion of queries from external sources</d:ProjectName>
+				<d:ProjectOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectOvertimeCost>
+				<d:ProjectOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectOvertimeWork>
+				<d:ProjectOwnerId m:type="Edm.Guid">602fb9b3-91a4-e911-b074-00155d689638</d:ProjectOwnerId>
+				<d:ProjectOwnerName>John Smith</d:ProjectOwnerName>
+				<d:ProjectPercentCompleted m:type="Edm.Int16">0</d:ProjectPercentCompleted>
+				<d:ProjectPercentWorkCompleted m:type="Edm.Int16">0</d:ProjectPercentWorkCompleted>
+				<d:ProjectRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRegularCost>
+				<d:ProjectRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRegularWork>
+				<d:ProjectRemainingCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingCost>
+				<d:ProjectRemainingDuration m:type="Edm.Decimal">8.000000</d:ProjectRemainingDuration>
+				<d:ProjectRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeCost>
+				<d:ProjectRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeWork>
+				<d:ProjectRemainingRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularCost>
+				<d:ProjectRemainingRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularWork>
+				<d:ProjectRemainingWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingWork>
+				<d:ProjectResourcePlanWork m:type="Edm.Decimal">0.000000</d:ProjectResourcePlanWork>
+				<d:ProjectSPI m:type="Edm.Decimal">0.000000</d:ProjectSPI>
+				<d:ProjectStartDate m:type="Edm.DateTime">2021-01-06T00:00:00</d:ProjectStartDate>
+				<d:ProjectStartVariance m:type="Edm.Decimal">0.000000</d:ProjectStartVariance>
+				<d:ProjectStatusDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectSubject m:null="true"/>
+				<d:ProjectSV m:type="Edm.Decimal">0.000000</d:ProjectSV>
+				<d:ProjectSVP m:type="Edm.Decimal">0.0000000000000</d:ProjectSVP>
+				<d:ProjectTCPI m:type="Edm.Decimal">0.000000</d:ProjectTCPI>
+				<d:ProjectTimephased m:null="true"/>
+				<d:ProjectTitle>insertion of queries from external sources into EDC</d:ProjectTitle>
+				<d:ProjectType m:type="Edm.Int32">0</d:ProjectType>
+				<d:ProjectVAC m:type="Edm.Decimal">0.000000</d:ProjectVAC>
+				<d:ProjectWork m:type="Edm.Decimal">0.000000</d:ProjectWork>
+				<d:ProjectWorkspaceInternalUrl>https://myprojects.sharepoint.com/teams/gpols/insertion of queries from external sources </d:ProjectWorkspaceInternalUrl>
+				<d:ProjectWorkVariance m:type="Edm.Decimal">0.000000</d:ProjectWorkVariance>
+				<d:ResourcePlanUtilizationDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ResourcePlanUtilizationType m:type="Edm.Int16">0</d:ResourcePlanUtilizationType>
+				<d:WorkflowCreatedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:WorkflowError m:null="true"/>
+				<d:WorkflowErrorResponseCode m:type="Edm.Int16" m:null="true"/>
+				<d:WorkflowInstanceId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerName m:null="true"/>
+				<d:ProjectDepartments m:null="true"/>
+				<d:CostHealth>Green</d:CostHealth>
+				<d:IssueHealth>Green</d:IssueHealth>
+				<d:NeedsStaffing m:type="Edm.Boolean" m:null="true"/>
+				<d:OverallHealth>Green</d:OverallHealth>
+				<d:Portfolio m:null="true"/>
+				<d:ProjectStatus m:null="true"/>
+				<d:ResourceHealth>Green</d:ResourceHealth>
+				<d:ROI m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleHealth>No Baseline</d:ScheduleHealth>
+				<d:State>1) Requested</d:State>
+				<d:TotalBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:TotalCost m:type="Edm.Decimal" m:null="true"/>
+				<d:WorkHealth>Green</d:WorkHealth>
+				<d:IdeaIntakeID m:null="true"/>
+				<d:InvestmentType>Project</d:InvestmentType>
+				<d:BusinessNeedProblemDescription xml:space="preserve"> creation of an API or multiple APIs</d:BusinessNeedProblemDescription>
+				<d:PriorityProject m:null="true"/>
+				<d:ValueStatement m:null="true"/>
+				<d:SponsoringFunction>IDAR</d:SponsoringFunction>
+				<d:InvestmentOwner>John Smith</d:InvestmentOwner>
+				<d:BusinessLead>John Smith</d:BusinessLead>
+				<d:EBISDepartment>CDS</d:EBISDepartment>
+				<d:SubDepartment m:null="true"/>
+				<d:ProjectLead>John Smith</d:ProjectLead>
+				<d:ProjectPriority m:null="true"/>
+				<d:LikelihoodofOccurence m:null="true"/>
+				<d:IncludedinBusinessPlan m:null="true"/>
+				<d:ComplianceRelated m:null="true"/>
+				<d:InScope m:null="true"/>
+				<d:OutofScope m:null="true"/>
+				<d:ValueStream>Concept</d:ValueStream>
+				<d:SystemsImpacted m:null="true"/>
+				<d:FBPID m:type="Edm.Decimal">225.000000</d:FBPID>
+				<d:ApprovedBudgetCapital m:type="Edm.Decimal">0.000000</d:ApprovedBudgetCapital>
+				<d:ApprovedBudgetExpense m:type="Edm.Decimal">0.000000</d:ApprovedBudgetExpense>
+				<d:EstimateBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:StrategicInvestment m:null="true"/>
+				<d:EBISInstantisID m:null="true"/>
+				<d:ITInstantisPMTID m:null="true"/>
+				<d:RequestedBy m:null="true"/>
+				<d:ProjectComments>GL: confirmed May to remove budget ask for now, will revisit later in 2021 if needed</d:ProjectComments>
+				<d:PlannedStartDate m:type="Edm.DateTime">2021-03-01T00:00:00</d:PlannedStartDate>
+				<d:PlannedEndDate m:type="Edm.DateTime">2021-10-01T00:00:00</d:PlannedEndDate>
+				<d:Assumptions m:null="true"/>
+				<d:Dependencies1 m:null="true"/>
+				<d:PlannedCapital m:type="Edm.Decimal">0.000000</d:PlannedCapital>
+				<d:PlannedExpense m:type="Edm.Decimal">0.000000</d:PlannedExpense>
+				<d:Stage>Idea</d:Stage>
+				<d:RiskScore m:null="true"/>
+				<d:PriorityScore m:type="Edm.Decimal" m:null="true"/>
+				<d:LikelihoodScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ComplianceScore m:type="Edm.Decimal" m:null="true"/>
+				<d:PrioritizationScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleManagement>Red</d:ScheduleManagement>
+				<d:FinancialManagement>Green</d:FinancialManagement>
+				<d:UpdatedBudgetCapital m:type="Edm.Decimal">0.000000</d:UpdatedBudgetCapital>
+				<d:ActualsExpense m:type="Edm.Decimal">0.000000</d:ActualsExpense>
+				<d:ActualsCapital m:type="Edm.Decimal">0.000000</d:ActualsCapital>
+				<d:UpdatedBudgetExpense m:type="Edm.Decimal">0.000000</d:UpdatedBudgetExpense>
+				<d:CommittedCapital m:type="Edm.Decimal" m:null="true"/>
+				<d:Program m:null="true"/>
+				<d:ProjectIdeasID m:null="true"/>
+				<d:IdeaIntakeIDduplicate m:null="true"/>
+				<d:ZeroBudgetProject>Yes</d:ZeroBudgetProject>
+				<d:QoBV1 m:null="true"/>
+				<d:QoBV2 m:null="true"/>
+				<d:QoBV3 m:null="true"/>
+				<d:FPXproject m:type="Edm.Boolean" m:null="true"/>
+				<d:FPXCoachname m:null="true"/>
+				<d:FPXPLCertificationdate m:type="Edm.DateTime" m:null="true"/>
+				<d:FPXPLTrainingdate m:type="Edm.DateTime" m:null="true"/>
+				<d:EfficiencyProvider m:type="Edm.Boolean" m:null="true"/>
+				<d:ProjectSponsor m:null="true"/>
+				<d:CommentOverall m:null="true"/>
+				<d:CommentSchedule m:null="true"/>
+				<d:CommentScope m:null="true"/>
+				<d:CommentFinance m:null="true"/>
+				<d:PrimarySponsor>Govaerts, May [JRDBE]</d:PrimarySponsor>
+				<d:PotentialSavings m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')</id>
+		<category term="ReportingData.Project" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Project" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentBaselines" type="application/atom+xml;type=feed" title="AssignmentBaselines" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/AssignmentBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Deliverables" type="application/atom+xml;type=feed" title="Deliverables" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Deliverables"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Dependencies" type="application/atom+xml;type=feed" title="Dependencies" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Dependencies"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/StagesInfo" type="application/atom+xml;type=feed" title="StagesInfo" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/StagesInfo"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Tasks" type="application/atom+xml;type=feed" title="Tasks" href="Projects(guid'a8f2bb9a-fd53-eb11-bf89-00155d343615')/Tasks"/>
+		<title/>
+		<updated>2021-05-20T08:59:33Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">a8f2bb9a-fd53-eb11-bf89-00155d343615</d:ProjectId>
+				<d:EnterpriseProjectTypeDescription m:null="true"/>
+				<d:EnterpriseProjectTypeId m:type="Edm.Guid">72137f58-f578-e911-b07b-00155d604104</d:EnterpriseProjectTypeId>
+				<d:EnterpriseProjectTypeIsDefault m:type="Edm.Boolean">false</d:EnterpriseProjectTypeIsDefault>
+				<d:EnterpriseProjectTypeName>Base Business</d:EnterpriseProjectTypeName>
+				<d:OptimizerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:OptimizerDecisionName m:null="true"/>
+				<d:OptimizerSolutionName m:null="true"/>
+				<d:ParentProjectId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:PlannerDecisionName m:null="true"/>
+				<d:PlannerEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerSolutionName m:null="true"/>
+				<d:PlannerStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualCost m:type="Edm.Decimal">0.000000</d:ProjectActualCost>
+				<d:ProjectActualDuration m:type="Edm.Decimal">2256.000000</d:ProjectActualDuration>
+				<d:ProjectActualFinishDate m:type="Edm.DateTime">2021-02-14T08:00:00</d:ProjectActualFinishDate>
+				<d:ProjectActualOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeCost>
+				<d:ProjectActualOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeWork>
+				<d:ProjectActualRegularCost m:type="Edm.Decimal">0.000000</d:ProjectActualRegularCost>
+				<d:ProjectActualRegularWork m:type="Edm.Decimal">0.000000</d:ProjectActualRegularWork>
+				<d:ProjectActualStartDate m:type="Edm.DateTime">2020-12-03T08:00:00</d:ProjectActualStartDate>
+				<d:ProjectActualWork m:type="Edm.Decimal">0.000000</d:ProjectActualWork>
+				<d:ProjectACWP m:type="Edm.Decimal">0.000000</d:ProjectACWP>
+				<d:ProjectAuthorName>John Smith</d:ProjectAuthorName>
+				<d:ProjectBCWP m:type="Edm.Decimal">0.000000</d:ProjectBCWP>
+				<d:ProjectBCWS m:type="Edm.Decimal">0.000000</d:ProjectBCWS>
+				<d:ProjectBudgetCost m:type="Edm.Decimal">0.000000</d:ProjectBudgetCost>
+				<d:ProjectBudgetWork m:type="Edm.Decimal">0.000000</d:ProjectBudgetWork>
+				<d:ProjectCalculationsAreStale m:type="Edm.Boolean">false</d:ProjectCalculationsAreStale>
+				<d:ProjectCalendarDuration m:type="Edm.Int32">8513</d:ProjectCalendarDuration>
+				<d:ProjectCategoryName m:null="true"/>
+				<d:ProjectCompanyName m:null="true"/>
+				<d:ProjectCost m:type="Edm.Decimal">0.000000</d:ProjectCost>
+				<d:ProjectCostVariance m:type="Edm.Decimal">0.000000</d:ProjectCostVariance>
+				<d:ProjectCPI m:type="Edm.Decimal">0.000000</d:ProjectCPI>
+				<d:ProjectCreatedDate m:type="Edm.DateTime">2021-01-11T11:10:28.013</d:ProjectCreatedDate>
+				<d:ProjectCurrency>USD</d:ProjectCurrency>
+				<d:ProjectCV m:type="Edm.Decimal">0.000000</d:ProjectCV>
+				<d:ProjectCVP m:type="Edm.Decimal">0.0000000000000</d:ProjectCVP>
+				<d:ProjectDescription>Goal is to ensure that EBIS supported systems </d:ProjectDescription>
+				<d:ProjectDuration m:type="Edm.Decimal">2256.000000</d:ProjectDuration>
+				<d:ProjectDurationVariance m:type="Edm.Decimal">0.000000</d:ProjectDurationVariance>
+				<d:ProjectEAC m:type="Edm.Decimal">0.000000</d:ProjectEAC>
+				<d:ProjectEarlyFinish m:type="Edm.DateTime">2021-12-31T17:00:00</d:ProjectEarlyFinish>
+				<d:ProjectEarlyStart m:type="Edm.DateTime">2020-12-03T08:00:00</d:ProjectEarlyStart>
+				<d:ProjectEarnedValueIsStale m:type="Edm.Boolean">false</d:ProjectEarnedValueIsStale>
+				<d:ProjectEnterpriseFeatures m:type="Edm.Boolean">true</d:ProjectEnterpriseFeatures>
+				<d:ProjectFinishDate m:type="Edm.DateTime">2021-12-31T17:00:00</d:ProjectFinishDate>
+				<d:ProjectFinishVariance m:type="Edm.Decimal">0.000000</d:ProjectFinishVariance>
+				<d:ProjectFixedCost m:type="Edm.Decimal">0.000000</d:ProjectFixedCost>
+				<d:ProjectIdentifier>EBIS-BB-0154</d:ProjectIdentifier>
+				<d:ProjectKeywords m:null="true"/>
+				<d:ProjectLateFinish m:type="Edm.DateTime">2021-12-31T17:00:00</d:ProjectLateFinish>
+				<d:ProjectLateStart m:type="Edm.DateTime">2020-12-03T08:00:00</d:ProjectLateStart>
+				<d:ProjectLastPublishedDate m:type="Edm.DateTime">2021-04-20T16:36:31.16</d:ProjectLastPublishedDate>
+				<d:ProjectManagerName m:null="true"/>
+				<d:ProjectModifiedDate m:type="Edm.DateTime">2021-04-20T16:36:24.35</d:ProjectModifiedDate>
+				<d:ProjectName>EBIS-SQA Base Business Change Control Support</d:ProjectName>
+				<d:ProjectOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectOvertimeCost>
+				<d:ProjectOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectOvertimeWork>
+				<d:ProjectOwnerId m:type="Edm.Guid">6a2fb9b3-91a4-e911-b074-00155d689638</d:ProjectOwnerId>
+				<d:ProjectOwnerName>John Smith</d:ProjectOwnerName>
+				<d:ProjectPercentCompleted m:type="Edm.Int16">100</d:ProjectPercentCompleted>
+				<d:ProjectPercentWorkCompleted m:type="Edm.Int16">100</d:ProjectPercentWorkCompleted>
+				<d:ProjectRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRegularCost>
+				<d:ProjectRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRegularWork>
+				<d:ProjectRemainingCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingCost>
+				<d:ProjectRemainingDuration m:type="Edm.Decimal">0.000000</d:ProjectRemainingDuration>
+				<d:ProjectRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeCost>
+				<d:ProjectRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeWork>
+				<d:ProjectRemainingRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularCost>
+				<d:ProjectRemainingRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularWork>
+				<d:ProjectRemainingWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingWork>
+				<d:ProjectResourcePlanWork m:type="Edm.Decimal">0.000000</d:ProjectResourcePlanWork>
+				<d:ProjectSPI m:type="Edm.Decimal">0.000000</d:ProjectSPI>
+				<d:ProjectStartDate m:type="Edm.DateTime">2021-01-11T00:00:00</d:ProjectStartDate>
+				<d:ProjectStartVariance m:type="Edm.Decimal">0.000000</d:ProjectStartVariance>
+				<d:ProjectStatusDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectSubject m:null="true"/>
+				<d:ProjectSV m:type="Edm.Decimal">0.000000</d:ProjectSV>
+				<d:ProjectSVP m:type="Edm.Decimal">0.0000000000000</d:ProjectSVP>
+				<d:ProjectTCPI m:type="Edm.Decimal">0.000000</d:ProjectTCPI>
+				<d:ProjectTimephased m:null="true"/>
+				<d:ProjectTitle>Control Support</d:ProjectTitle>
+				<d:ProjectType m:type="Edm.Int32">0</d:ProjectType>
+				<d:ProjectVAC m:type="Edm.Decimal">0.000000</d:ProjectVAC>
+				<d:ProjectWork m:type="Edm.Decimal">0.000000</d:ProjectWork>
+				<d:ProjectWorkspaceInternalUrl>https://myprojects.sharepoint.com/teams/gpols/2021 EBIS-SQA </d:ProjectWorkspaceInternalUrl>
+				<d:ProjectWorkVariance m:type="Edm.Decimal">0.000000</d:ProjectWorkVariance>
+				<d:ResourcePlanUtilizationDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ResourcePlanUtilizationType m:type="Edm.Int16">0</d:ResourcePlanUtilizationType>
+				<d:WorkflowCreatedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:WorkflowError m:null="true"/>
+				<d:WorkflowErrorResponseCode m:type="Edm.Int16" m:null="true"/>
+				<d:WorkflowInstanceId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerName m:null="true"/>
+				<d:ProjectDepartments m:null="true"/>
+				<d:CostHealth>Green</d:CostHealth>
+				<d:IssueHealth>Green</d:IssueHealth>
+				<d:NeedsStaffing m:type="Edm.Boolean" m:null="true"/>
+				<d:OverallHealth>Green</d:OverallHealth>
+				<d:Portfolio m:null="true"/>
+				<d:ProjectStatus m:null="true"/>
+				<d:ResourceHealth>Green</d:ResourceHealth>
+				<d:ROI m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleHealth>Complete</d:ScheduleHealth>
+				<d:State>1) Requested</d:State>
+				<d:TotalBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:TotalCost m:type="Edm.Decimal" m:null="true"/>
+				<d:WorkHealth>Green</d:WorkHealth>
+				<d:IdeaIntakeID m:null="true"/>
+				<d:InvestmentType>Base Business</d:InvestmentType>
+				<d:BusinessNeedProblemDescription xml:space="preserve">Goal is to ensure</d:BusinessNeedProblemDescription>
+				<d:PriorityProject m:null="true"/>
+				<d:ValueStatement m:null="true"/>
+				<d:SponsoringFunction>EBIS</d:SponsoringFunction>
+				<d:InvestmentOwner>John Smith</d:InvestmentOwner>
+				<d:BusinessLead>John Smith</d:BusinessLead>
+				<d:EBISDepartment>COS</d:EBISDepartment>
+				<d:SubDepartment m:null="true"/>
+				<d:ProjectLead>Ravela, Manohar [JRDUS]</d:ProjectLead>
+				<d:ProjectPriority m:null="true"/>
+				<d:LikelihoodofOccurence m:null="true"/>
+				<d:IncludedinBusinessPlan m:null="true"/>
+				<d:ComplianceRelated m:null="true"/>
+				<d:InScope m:null="true"/>
+				<d:OutofScope m:null="true"/>
+				<d:ValueStream>Execution</d:ValueStream>
+				<d:SystemsImpacted m:null="true"/>
+				<d:FBPID m:type="Edm.Decimal">195.000000</d:FBPID>
+				<d:ApprovedBudgetCapital m:type="Edm.Decimal">0.000000</d:ApprovedBudgetCapital>
+				<d:ApprovedBudgetExpense m:type="Edm.Decimal">75.000000</d:ApprovedBudgetExpense>
+				<d:EstimateBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:StrategicInvestment m:null="true"/>
+				<d:EBISInstantisID m:null="true"/>
+				<d:ITInstantisPMTID m:null="true"/>
+				<d:RequestedBy m:null="true"/>
+				<d:ProjectComments m:null="true"/>
+				<d:PlannedStartDate m:type="Edm.DateTime">2020-12-28T00:00:00</d:PlannedStartDate>
+				<d:PlannedEndDate m:type="Edm.DateTime">2021-12-31T00:00:00</d:PlannedEndDate>
+				<d:Assumptions m:null="true"/>
+				<d:Dependencies1 m:null="true"/>
+				<d:PlannedCapital m:type="Edm.Decimal">0.000000</d:PlannedCapital>
+				<d:PlannedExpense m:type="Edm.Decimal">75.130000</d:PlannedExpense>
+				<d:Stage>Idea</d:Stage>
+				<d:RiskScore m:null="true"/>
+				<d:PriorityScore m:type="Edm.Decimal" m:null="true"/>
+				<d:LikelihoodScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ComplianceScore m:type="Edm.Decimal" m:null="true"/>
+				<d:PrioritizationScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleManagement>Green</d:ScheduleManagement>
+				<d:FinancialManagement>Green</d:FinancialManagement>
+				<d:UpdatedBudgetCapital m:type="Edm.Decimal">0.000000</d:UpdatedBudgetCapital>
+				<d:ActualsExpense m:type="Edm.Decimal">18652.000000</d:ActualsExpense>
+				<d:ActualsCapital m:type="Edm.Decimal">0.000000</d:ActualsCapital>
+				<d:UpdatedBudgetExpense m:type="Edm.Decimal">75.000000</d:UpdatedBudgetExpense>
+				<d:CommittedCapital m:type="Edm.Decimal" m:null="true"/>
+				<d:Program m:null="true"/>
+				<d:ProjectIdeasID m:null="true"/>
+				<d:IdeaIntakeIDduplicate m:null="true"/>
+				<d:ZeroBudgetProject>No</d:ZeroBudgetProject>
+				<d:QoBV1 m:null="true"/>
+				<d:QoBV2 m:null="true"/>
+				<d:QoBV3 m:null="true"/>
+				<d:FPXproject m:type="Edm.Boolean" m:null="true"/>
+				<d:FPXCoachname m:null="true"/>
+				<d:FPXPLCertificationdate m:type="Edm.DateTime" m:null="true"/>
+				<d:FPXPLTrainingdate m:type="Edm.DateTime" m:null="true"/>
+				<d:EfficiencyProvider m:type="Edm.Boolean" m:null="true"/>
+				<d:ProjectSponsor m:null="true"/>
+				<d:CommentOverall m:null="true"/>
+				<d:CommentSchedule m:null="true"/>
+				<d:CommentScope m:null="true"/>
+				<d:CommentFinance m:null="true"/>
+				<d:PrimarySponsor m:null="true"/>
+				<d:PotentialSavings m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')</id>
+		<category term="ReportingData.Project" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Project" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentBaselines" type="application/atom+xml;type=feed" title="AssignmentBaselines" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/AssignmentBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Deliverables" type="application/atom+xml;type=feed" title="Deliverables" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Deliverables"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Dependencies" type="application/atom+xml;type=feed" title="Dependencies" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Dependencies"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/StagesInfo" type="application/atom+xml;type=feed" title="StagesInfo" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/StagesInfo"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Tasks" type="application/atom+xml;type=feed" title="Tasks" href="Projects(guid'1d9fe48a-c35c-eb11-bf8f-00155d34380c')/Tasks"/>
+		<title/>
+		<updated>2021-05-20T08:59:33Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">1d9fe48a-c35c-eb11-bf8f-00155d34380c</d:ProjectId>
+				<d:EnterpriseProjectTypeDescription m:null="true"/>
+				<d:EnterpriseProjectTypeId m:type="Edm.Guid">a931eae9-f478-e911-b07a-00155d642512</d:EnterpriseProjectTypeId>
+				<d:EnterpriseProjectTypeIsDefault m:type="Edm.Boolean">false</d:EnterpriseProjectTypeIsDefault>
+				<d:EnterpriseProjectTypeName>Project</d:EnterpriseProjectTypeName>
+				<d:OptimizerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:OptimizerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:OptimizerDecisionName m:null="true"/>
+				<d:OptimizerSolutionName m:null="true"/>
+				<d:ParentProjectId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerCommitDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionAliasLookupTableValueId m:type="Edm.Guid" m:null="true"/>
+				<d:PlannerDecisionID m:type="Edm.Byte" m:null="true"/>
+				<d:PlannerDecisionName m:null="true"/>
+				<d:PlannerEndDate m:type="Edm.DateTime" m:null="true"/>
+				<d:PlannerSolutionName m:null="true"/>
+				<d:PlannerStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualCost m:type="Edm.Decimal">0.000000</d:ProjectActualCost>
+				<d:ProjectActualDuration m:type="Edm.Decimal">0.000000</d:ProjectActualDuration>
+				<d:ProjectActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeCost>
+				<d:ProjectActualOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectActualOvertimeWork>
+				<d:ProjectActualRegularCost m:type="Edm.Decimal">0.000000</d:ProjectActualRegularCost>
+				<d:ProjectActualRegularWork m:type="Edm.Decimal">0.000000</d:ProjectActualRegularWork>
+				<d:ProjectActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectActualWork m:type="Edm.Decimal">0.000000</d:ProjectActualWork>
+				<d:ProjectACWP m:type="Edm.Decimal">0.000000</d:ProjectACWP>
+				<d:ProjectAuthorName>John Smith</d:ProjectAuthorName>
+				<d:ProjectBCWP m:type="Edm.Decimal">0.000000</d:ProjectBCWP>
+				<d:ProjectBCWS m:type="Edm.Decimal">0.000000</d:ProjectBCWS>
+				<d:ProjectBudgetCost m:type="Edm.Decimal">0.000000</d:ProjectBudgetCost>
+				<d:ProjectBudgetWork m:type="Edm.Decimal">0.000000</d:ProjectBudgetWork>
+				<d:ProjectCalculationsAreStale m:type="Edm.Boolean">false</d:ProjectCalculationsAreStale>
+				<d:ProjectCalendarDuration m:type="Edm.Int32">17</d:ProjectCalendarDuration>
+				<d:ProjectCategoryName m:null="true"/>
+				<d:ProjectCompanyName m:null="true"/>
+				<d:ProjectCost m:type="Edm.Decimal">0.000000</d:ProjectCost>
+				<d:ProjectCostVariance m:type="Edm.Decimal">0.000000</d:ProjectCostVariance>
+				<d:ProjectCPI m:type="Edm.Decimal">0.000000</d:ProjectCPI>
+				<d:ProjectCreatedDate m:type="Edm.DateTime">2021-01-22T15:07:38.05</d:ProjectCreatedDate>
+				<d:ProjectCurrency>USD</d:ProjectCurrency>
+				<d:ProjectCV m:type="Edm.Decimal">0.000000</d:ProjectCV>
+				<d:ProjectCVP m:type="Edm.Decimal">0.0000000000000</d:ProjectCVP>
+				<d:ProjectDescription m:null="true"/>
+				<d:ProjectDuration m:type="Edm.Decimal">8.000000</d:ProjectDuration>
+				<d:ProjectDurationVariance m:type="Edm.Decimal">8.000000</d:ProjectDurationVariance>
+				<d:ProjectEAC m:type="Edm.Decimal">0.000000</d:ProjectEAC>
+				<d:ProjectEarlyFinish m:type="Edm.DateTime">2021-01-22T17:00:00</d:ProjectEarlyFinish>
+				<d:ProjectEarlyStart m:type="Edm.DateTime">2021-01-22T08:00:00</d:ProjectEarlyStart>
+				<d:ProjectEarnedValueIsStale m:type="Edm.Boolean">false</d:ProjectEarnedValueIsStale>
+				<d:ProjectEnterpriseFeatures m:type="Edm.Boolean">true</d:ProjectEnterpriseFeatures>
+				<d:ProjectFinishDate m:type="Edm.DateTime">2021-01-22T17:00:00</d:ProjectFinishDate>
+				<d:ProjectFinishVariance m:type="Edm.Decimal">0.000000</d:ProjectFinishVariance>
+				<d:ProjectFixedCost m:type="Edm.Decimal">0.000000</d:ProjectFixedCost>
+				<d:ProjectIdentifier>EBIS-PRJ-0124</d:ProjectIdentifier>
+				<d:ProjectKeywords m:null="true"/>
+				<d:ProjectLateFinish m:type="Edm.DateTime">2021-01-22T17:00:00</d:ProjectLateFinish>
+				<d:ProjectLateStart m:type="Edm.DateTime">2021-01-22T08:00:00</d:ProjectLateStart>
+				<d:ProjectLastPublishedDate m:type="Edm.DateTime">2021-03-15T02:13:55.483</d:ProjectLastPublishedDate>
+				<d:ProjectManagerName m:null="true"/>
+				<d:ProjectModifiedDate m:type="Edm.DateTime">2021-01-22T15:12:30.497</d:ProjectModifiedDate>
+				<d:ProjectName>IDM Reporting</d:ProjectName>
+				<d:ProjectOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectOvertimeCost>
+				<d:ProjectOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectOvertimeWork>
+				<d:ProjectOwnerId m:type="Edm.Guid">a530e1c6-c74c-ea11-b0c0-00155d688d44</d:ProjectOwnerId>
+				<d:ProjectOwnerName>John Smith</d:ProjectOwnerName>
+				<d:ProjectPercentCompleted m:type="Edm.Int16">0</d:ProjectPercentCompleted>
+				<d:ProjectPercentWorkCompleted m:type="Edm.Int16">0</d:ProjectPercentWorkCompleted>
+				<d:ProjectRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRegularCost>
+				<d:ProjectRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRegularWork>
+				<d:ProjectRemainingCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingCost>
+				<d:ProjectRemainingDuration m:type="Edm.Decimal">8.000000</d:ProjectRemainingDuration>
+				<d:ProjectRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeCost>
+				<d:ProjectRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingOvertimeWork>
+				<d:ProjectRemainingRegularCost m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularCost>
+				<d:ProjectRemainingRegularWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingRegularWork>
+				<d:ProjectRemainingWork m:type="Edm.Decimal">0.000000</d:ProjectRemainingWork>
+				<d:ProjectResourcePlanWork m:type="Edm.Decimal">0.000000</d:ProjectResourcePlanWork>
+				<d:ProjectSPI m:type="Edm.Decimal">0.000000</d:ProjectSPI>
+				<d:ProjectStartDate m:type="Edm.DateTime">2021-01-22T00:00:00</d:ProjectStartDate>
+				<d:ProjectStartVariance m:type="Edm.Decimal">0.000000</d:ProjectStartVariance>
+				<d:ProjectStatusDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ProjectSubject m:null="true"/>
+				<d:ProjectSV m:type="Edm.Decimal">0.000000</d:ProjectSV>
+				<d:ProjectSVP m:type="Edm.Decimal">0.0000000000000</d:ProjectSVP>
+				<d:ProjectTCPI m:type="Edm.Decimal">0.000000</d:ProjectTCPI>
+				<d:ProjectTimephased m:null="true"/>
+				<d:ProjectTitle>IDM Reporting and Oversight Solution</d:ProjectTitle>
+				<d:ProjectType m:type="Edm.Int32">0</d:ProjectType>
+				<d:ProjectVAC m:type="Edm.Decimal">0.000000</d:ProjectVAC>
+				<d:ProjectWork m:type="Edm.Decimal">0.000000</d:ProjectWork>
+				<d:ProjectWorkspaceInternalUrl>https://myprojects.sharepoint.com/teams/gpols/IDM Reporting and Oversight Solution</d:ProjectWorkspaceInternalUrl>
+				<d:ProjectWorkVariance m:type="Edm.Decimal">0.000000</d:ProjectWorkVariance>
+				<d:ResourcePlanUtilizationDate m:type="Edm.DateTime" m:null="true"/>
+				<d:ResourcePlanUtilizationType m:type="Edm.Int16">0</d:ResourcePlanUtilizationType>
+				<d:WorkflowCreatedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:WorkflowError m:null="true"/>
+				<d:WorkflowErrorResponseCode m:type="Edm.Int16" m:null="true"/>
+				<d:WorkflowInstanceId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerId m:type="Edm.Guid" m:null="true"/>
+				<d:WorkflowOwnerName m:null="true"/>
+				<d:ProjectDepartments m:null="true"/>
+				<d:CostHealth>Green</d:CostHealth>
+				<d:IssueHealth>Green</d:IssueHealth>
+				<d:NeedsStaffing m:type="Edm.Boolean" m:null="true"/>
+				<d:OverallHealth>Green</d:OverallHealth>
+				<d:Portfolio m:null="true"/>
+				<d:ProjectStatus m:null="true"/>
+				<d:ResourceHealth>Green</d:ResourceHealth>
+				<d:ROI m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleHealth>No Baseline</d:ScheduleHealth>
+				<d:State>1) Requested</d:State>
+				<d:TotalBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:TotalCost m:type="Edm.Decimal" m:null="true"/>
+				<d:WorkHealth>Green</d:WorkHealth>
+				<d:IdeaIntakeID m:null="true"/>
+				<d:InvestmentType>Project</d:InvestmentType>
+				<d:BusinessNeedProblemDescription>Evaluate the potential</d:BusinessNeedProblemDescription>
+				<d:PriorityProject m:null="true"/>
+				<d:ValueStatement m:null="true"/>
+				<d:SponsoringFunction>GCO</d:SponsoringFunction>
+				<d:InvestmentOwner>John Smith</d:InvestmentOwner>
+				<d:BusinessLead>John Smith</d:BusinessLead>
+				<d:EBISDepartment>COS</d:EBISDepartment>
+				<d:SubDepartment m:null="true"/>
+				<d:ProjectLead>John Smith</d:ProjectLead>
+				<d:ProjectPriority m:null="true"/>
+				<d:LikelihoodofOccurence m:null="true"/>
+				<d:IncludedinBusinessPlan m:null="true"/>
+				<d:ComplianceRelated m:null="true"/>
+				<d:InScope m:null="true"/>
+				<d:OutofScope m:null="true"/>
+				<d:ValueStream>Execution</d:ValueStream>
+				<d:SystemsImpacted m:null="true"/>
+				<d:FBPID m:type="Edm.Decimal">94.000000</d:FBPID>
+				<d:ApprovedBudgetCapital m:type="Edm.Decimal">0.000000</d:ApprovedBudgetCapital>
+				<d:ApprovedBudgetExpense m:type="Edm.Decimal">200000.000000</d:ApprovedBudgetExpense>
+				<d:EstimateBenefits m:type="Edm.Decimal" m:null="true"/>
+				<d:StrategicInvestment m:null="true"/>
+				<d:EBISInstantisID m:null="true"/>
+				<d:ITInstantisPMTID m:null="true"/>
+				<d:RequestedBy m:null="true"/>
+				<d:ProjectComments>brekadown</d:ProjectComments>
+				<d:PlannedStartDate m:type="Edm.DateTime">2021-01-01T00:00:00</d:PlannedStartDate>
+				<d:PlannedEndDate m:type="Edm.DateTime">2023-12-31T00:00:00</d:PlannedEndDate>
+				<d:Assumptions>Phase 0</d:Assumptions>
+				<d:Dependencies1 m:null="true"/>
+				<d:PlannedCapital m:type="Edm.Decimal">0.000000</d:PlannedCapital>
+				<d:PlannedExpense m:type="Edm.Decimal">200000.000000</d:PlannedExpense>
+				<d:Stage>Idea</d:Stage>
+				<d:RiskScore m:null="true"/>
+				<d:PriorityScore m:type="Edm.Decimal" m:null="true"/>
+				<d:LikelihoodScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ComplianceScore m:type="Edm.Decimal" m:null="true"/>
+				<d:PrioritizationScore m:type="Edm.Decimal" m:null="true"/>
+				<d:ScheduleManagement>Red</d:ScheduleManagement>
+				<d:FinancialManagement>Green</d:FinancialManagement>
+				<d:UpdatedBudgetCapital m:type="Edm.Decimal">0.000000</d:UpdatedBudgetCapital>
+				<d:ActualsExpense m:type="Edm.Decimal">0.000000</d:ActualsExpense>
+				<d:ActualsCapital m:type="Edm.Decimal">0.000000</d:ActualsCapital>
+				<d:UpdatedBudgetExpense m:type="Edm.Decimal">200000.000000</d:UpdatedBudgetExpense>
+				<d:CommittedCapital m:type="Edm.Decimal" m:null="true"/>
+				<d:Program m:null="true"/>
+				<d:ProjectIdeasID m:null="true"/>
+				<d:IdeaIntakeIDduplicate m:null="true"/>
+				<d:ZeroBudgetProject>No</d:ZeroBudgetProject>
+				<d:QoBV1 m:null="true"/>
+				<d:QoBV2 m:null="true"/>
+				<d:QoBV3 m:null="true"/>
+				<d:FPXproject m:type="Edm.Boolean" m:null="true"/>
+				<d:FPXCoachname m:null="true"/>
+				<d:FPXPLCertificationdate m:type="Edm.DateTime" m:null="true"/>
+				<d:FPXPLTrainingdate m:type="Edm.DateTime" m:null="true"/>
+				<d:EfficiencyProvider m:type="Edm.Boolean" m:null="true"/>
+				<d:ProjectSponsor m:null="true"/>
+				<d:CommentOverall m:null="true"/>
+				<d:CommentSchedule m:null="true"/>
+				<d:CommentScope m:null="true"/>
+				<d:CommentFinance m:null="true"/>
+				<d:PrimarySponsor>John Smith</d:PrimarySponsor>
+				<d:PotentialSavings m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<link rel="next" href="https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects?$skiptoken=guid'89ec620e-7733-ea11-b0cf-00155d68c60f'"/>
+</feed>

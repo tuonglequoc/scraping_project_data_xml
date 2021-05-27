@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+	<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Tasks</id>
+	<title type="text">Tasks</title>
+	<updated>2021-05-20T11:33:50Z</updated>
+	<link rel="self" title="Tasks" href="Tasks"/>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'94640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">94640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">81</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-09-20T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-09-20T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-09-20T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">868609f1-81a3-4e2c-9874-829ecacb4b26</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">832.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">9</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Create and approve CCR</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.8</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-09-20T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">832.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.8</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'95640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">95640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">82</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-05-28T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-05-28T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-05-28T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">e0dc6f17-aec8-4744-a0c0-6b706dfbff32</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">1480.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">3</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Proposal for upgrade to search capability</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.2</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-05-28T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">1480.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.2</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'96640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">96640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">83</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-06-25T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-06-25T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-06-25T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">345b9cc2-c07a-48cb-9ad3-b37d8f1438ef</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">1320.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">6</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Create CCP</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.5</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-06-25T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">1320.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.5</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'97640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">97640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">84</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-08-27T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-08-27T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-08-27T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">3c3445ec-db13-43bd-bd71-387dc8c8cf0a</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">960.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">7</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>UAT/Regression Testing where applicable</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.6</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-08-27T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">960.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.6</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'98640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">98640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">85</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-09-09T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-09-09T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-09-09T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">f9266d5d-5d82-4335-9081-f55d6c0b5620</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">888.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">8</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Implement new version</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.7</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-09-09T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">888.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.7</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'99640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">99640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">86</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-06-11T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-06-11T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-06-11T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">e4bdfe43-e021-4675-9d42-b3612822bb07</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">1400.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">5</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Spend Plan uploaded into financial tracking system</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.4</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-06-11T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">1400.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.4</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'9a640594-7d91-eb11-bfa0-00155d343618')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">9a640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">87</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">28</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-06-10T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-06-10T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-06-10T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">babeab06-0408-45a6-991c-982f04c42c98</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">1408.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">4</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>PO created</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.3</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-06-10T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">6b2fb9b3-91a4-e911-b074-00155d689638</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">1408.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.3</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'35b679e2-0a54-eb11-bf8d-00155d3c3708')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">35b679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">35b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>(DEA) Global Trial Finder Base Business</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskActualStartDate>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">0</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">1</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">2272.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">8431d3a6-1996-4e90-bc98-8c67a7fb0bc3</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">0.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">0</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">true</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">false</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">true</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">true</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>(DEA) Global Trial Finder Base Business</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">0</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>0</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">2272.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">0.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS/>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator m:null="true"/>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'36b679e2-0a54-eb11-bf8d-00155d3c3708')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">35b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>(DEA) Global Trial Finder Base Business</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskActualStartDate>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">33</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">1</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">2272.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">0a3dc399-dd51-489b-a00d-5ef109dff360</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">0.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">1</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">true</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">false</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">true</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Base Business Milestones</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">1</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">2272.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">0.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator m:null="true"/>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3ab679e2-0a54-eb11-bf8d-00155d3c3708')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">3ab679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">46</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">1</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">cd32e628-aa56-4da0-9730-d28207d45f1b</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">0.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">10</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">true</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>PO Closed</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.9</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">0</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">0</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">8d914047-2a88-e911-b07d-00155d688f3c</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">0.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.9</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>On Schedule</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Task" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Task" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Assignments" type="application/atom+xml;type=feed" title="Assignments" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/Assignments"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselines" type="application/atom+xml;type=feed" title="AssignmentsBaselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AssignmentsBaselineTimephasedData" type="application/atom+xml;type=feed" title="AssignmentsBaselineTimephasedData" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/AssignmentsBaselineTimephasedData"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baselines" type="application/atom+xml;type=feed" title="Baselines" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/Baselines"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/BaselinesTimephasedDataSet" type="application/atom+xml;type=feed" title="BaselinesTimephasedDataSet" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/BaselinesTimephasedDataSet"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Issues" type="application/atom+xml;type=feed" title="Issues" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/Issues"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Risks" type="application/atom+xml;type=feed" title="Risks" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/Risks"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedInfo" type="application/atom+xml;type=feed" title="TimephasedInfo" href="Tasks(ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708',TaskId=guid'3cb679e2-0a54-eb11-bf8d-00155d3c3708')/TimephasedInfo"/>
+		<title/>
+		<updated>2021-05-20T11:33:50Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:TaskId m:type="Edm.Guid">3cb679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:ParentTaskId m:type="Edm.Guid">36b679e2-0a54-eb11-bf8d-00155d3c3708</d:ParentTaskId>
+				<d:ParentTaskName>Base Business Milestones</d:ParentTaskName>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:TaskActualCost m:type="Edm.Decimal">0.000000</d:TaskActualCost>
+				<d:TaskActualDuration m:type="Edm.Decimal">0.000000</d:TaskActualDuration>
+				<d:TaskActualFinishDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskActualFinishDate>
+				<d:TaskActualFixedCost m:type="Edm.Decimal">0.000000</d:TaskActualFixedCost>
+				<d:TaskActualOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeCost>
+				<d:TaskActualOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskActualOvertimeWork>
+				<d:TaskActualRegularCost m:type="Edm.Decimal">0.000000</d:TaskActualRegularCost>
+				<d:TaskActualRegularWork m:type="Edm.Decimal">0.000000</d:TaskActualRegularWork>
+				<d:TaskActualStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskActualStartDate>
+				<d:TaskActualWork m:type="Edm.Decimal">0.000000</d:TaskActualWork>
+				<d:TaskACWP m:type="Edm.Decimal">0.000000</d:TaskACWP>
+				<d:TaskBCWP m:type="Edm.Decimal">0.000000</d:TaskBCWP>
+				<d:TaskBCWS m:type="Edm.Decimal">0.000000</d:TaskBCWS>
+				<d:TaskBudgetCost m:type="Edm.Decimal">0.000000</d:TaskBudgetCost>
+				<d:TaskBudgetWork m:type="Edm.Decimal">0.000000</d:TaskBudgetWork>
+				<d:TaskClientUniqueId m:type="Edm.Int32">50</d:TaskClientUniqueId>
+				<d:TaskCost m:type="Edm.Decimal">0.000000</d:TaskCost>
+				<d:TaskCostVariance m:type="Edm.Decimal">0.000000</d:TaskCostVariance>
+				<d:TaskCPI m:type="Edm.Decimal">0.000000</d:TaskCPI>
+				<d:TaskCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:TaskCreatedDate>
+				<d:TaskCreatedRevisionCounter m:type="Edm.Int32">1</d:TaskCreatedRevisionCounter>
+				<d:TaskCV m:type="Edm.Decimal">0.000000</d:TaskCV>
+				<d:TaskCVP m:type="Edm.Decimal">0.0000000000000</d:TaskCVP>
+				<d:TaskDeadline m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDeliverableStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:TaskDuration m:type="Edm.Decimal">0.000000</d:TaskDuration>
+				<d:TaskDurationIsEstimated m:type="Edm.Boolean">false</d:TaskDurationIsEstimated>
+				<d:TaskDurationString m:null="true"/>
+				<d:TaskDurationVariance m:type="Edm.Decimal">0.000000</d:TaskDurationVariance>
+				<d:TaskEAC m:type="Edm.Decimal">0.000000</d:TaskEAC>
+				<d:TaskEarlyFinish m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskEarlyFinish>
+				<d:TaskEarlyStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskEarlyStart>
+				<d:TaskFinishDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskFinishDate>
+				<d:TaskFinishDateString m:null="true"/>
+				<d:TaskFinishVariance m:type="Edm.Decimal">0.000000</d:TaskFinishVariance>
+				<d:TaskFixedCost m:type="Edm.Decimal">0.000000</d:TaskFixedCost>
+				<d:TaskFixedCostAssignmentId m:type="Edm.Guid">acb9b8c5-0826-4ee9-9967-ec197d9f00c5</d:TaskFixedCostAssignmentId>
+				<d:TaskFreeSlack m:type="Edm.Decimal">0.000000</d:TaskFreeSlack>
+				<d:TaskHyperLinkAddress m:null="true"/>
+				<d:TaskHyperLinkFriendlyName m:null="true"/>
+				<d:TaskHyperLinkSubAddress m:null="true"/>
+				<d:TaskIgnoresResourceCalendar m:type="Edm.Boolean">false</d:TaskIgnoresResourceCalendar>
+				<d:TaskIndex m:type="Edm.Int32">2</d:TaskIndex>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskIsCritical m:type="Edm.Boolean">false</d:TaskIsCritical>
+				<d:TaskIsEffortDriven m:type="Edm.Boolean">false</d:TaskIsEffortDriven>
+				<d:TaskIsExternal m:type="Edm.Boolean">false</d:TaskIsExternal>
+				<d:TaskIsManuallyScheduled m:type="Edm.Boolean">false</d:TaskIsManuallyScheduled>
+				<d:TaskIsMarked m:type="Edm.Boolean">false</d:TaskIsMarked>
+				<d:TaskIsMilestone m:type="Edm.Boolean">true</d:TaskIsMilestone>
+				<d:TaskIsOverallocated m:type="Edm.Boolean">false</d:TaskIsOverallocated>
+				<d:TaskIsProjectSummary m:type="Edm.Boolean">false</d:TaskIsProjectSummary>
+				<d:TaskIsRecurring m:type="Edm.Boolean">false</d:TaskIsRecurring>
+				<d:TaskIsSummary m:type="Edm.Boolean">false</d:TaskIsSummary>
+				<d:TaskLateFinish m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskLateFinish>
+				<d:TaskLateStart m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskLateStart>
+				<d:TaskLevelingDelay m:type="Edm.Decimal">0.000000</d:TaskLevelingDelay>
+				<d:TaskModifiedDate m:type="Edm.DateTime">2021-03-30T17:40:05.62</d:TaskModifiedDate>
+				<d:TaskModifiedRevisionCounter m:type="Edm.Int32">29</d:TaskModifiedRevisionCounter>
+				<d:TaskName>Approval for BB Item Received</d:TaskName>
+				<d:TaskOutlineLevel m:type="Edm.Int16">2</d:TaskOutlineLevel>
+				<d:TaskOutlineNumber>1.1</d:TaskOutlineNumber>
+				<d:TaskOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskOvertimeCost>
+				<d:TaskOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskOvertimeWork>
+				<d:TaskPercentCompleted m:type="Edm.Int16">100</d:TaskPercentCompleted>
+				<d:TaskPercentWorkCompleted m:type="Edm.Int16">100</d:TaskPercentWorkCompleted>
+				<d:TaskPhysicalPercentCompleted m:type="Edm.Int16">0</d:TaskPhysicalPercentCompleted>
+				<d:TaskPriority m:type="Edm.Int16">500</d:TaskPriority>
+				<d:TaskRegularCost m:type="Edm.Decimal">0.000000</d:TaskRegularCost>
+				<d:TaskRegularWork m:type="Edm.Decimal">0.000000</d:TaskRegularWork>
+				<d:TaskRemainingCost m:type="Edm.Decimal">0.000000</d:TaskRemainingCost>
+				<d:TaskRemainingDuration m:type="Edm.Decimal">0.000000</d:TaskRemainingDuration>
+				<d:TaskRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeCost>
+				<d:TaskRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:TaskRemainingOvertimeWork>
+				<d:TaskRemainingRegularCost m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularCost>
+				<d:TaskRemainingRegularWork m:type="Edm.Decimal">0.000000</d:TaskRemainingRegularWork>
+				<d:TaskRemainingWork m:type="Edm.Decimal">0.000000</d:TaskRemainingWork>
+				<d:TaskResourcePlanWork m:type="Edm.Decimal">0.000000</d:TaskResourcePlanWork>
+				<d:TaskSPI m:type="Edm.Decimal">0.000000</d:TaskSPI>
+				<d:TaskStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:TaskStartDate>
+				<d:TaskStartDateString m:null="true"/>
+				<d:TaskStartVariance m:type="Edm.Decimal">0.000000</d:TaskStartVariance>
+				<d:TaskStatusManagerUID m:type="Edm.Guid">8d914047-2a88-e911-b07d-00155d688f3c</d:TaskStatusManagerUID>
+				<d:TaskSV m:type="Edm.Decimal">0.000000</d:TaskSV>
+				<d:TaskSVP m:type="Edm.Decimal">0.0000000000000</d:TaskSVP>
+				<d:TaskTCPI m:type="Edm.Decimal">0.000000</d:TaskTCPI>
+				<d:TaskTotalSlack m:type="Edm.Decimal">0.000000</d:TaskTotalSlack>
+				<d:TaskVAC m:type="Edm.Decimal">0.000000</d:TaskVAC>
+				<d:TaskWBS>1.1</d:TaskWBS>
+				<d:TaskWork m:type="Edm.Decimal">0.000000</d:TaskWork>
+				<d:TaskWorkVariance m:type="Edm.Decimal">0.000000</d:TaskWorkVariance>
+				<d:FlagStatus m:type="Edm.Boolean" m:null="true"/>
+				<d:Health>Not Specified</d:Health>
+				<d:TaskConstraintIndicator>Other Constraint</d:TaskConstraintIndicator>
+				<d:TaskStatus>Complete</d:TaskStatus>
+				<d:TaskDescriptionO365 m:null="true"/>
+				<d:SynchronizetoO365 m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365 m:null="true"/>
+				<d:GovernanceMilestone m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+</feed>

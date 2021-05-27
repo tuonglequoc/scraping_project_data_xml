@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+	<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Projects(guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Assignments</id>
+	<title type="text">Assignments</title>
+	<updated>2021-05-20T11:31:56Z</updated>
+	<link rel="self" title="Assignments" href="Assignments"/>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'594d7f0f-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">594d7f0f-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-09-20T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-09-20T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">94640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Create and approve CCR</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'7d477d1c-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">7d477d1c-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-05-28T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-05-28T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">95640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Proposal for upgrade to search capability</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'12d4a331-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">12d4a331-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-06-25T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-06-25T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">96640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Create CCP</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'74cb1a3d-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">74cb1a3d-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-08-27T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-08-27T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">97640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>UAT/Regression Testing where applicable</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'5bba6a49-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">5bba6a49-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-09-09T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-09-09T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">98640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Implement new version</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'dc961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">dc961a50-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-06-11T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-06-11T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">99640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Spend Plan uploaded into financial tracking system</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'de961a50-7e91-eb11-bfa0-00155d343618',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">de961a50-7e91-eb11-bfa0-00155d343618</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-03-30T17:38:32.78</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">28</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-06-10T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-06-10T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">9a640594-7d91-eb11-bfa0-00155d343618</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>PO created</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'bfb679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">bfb679e2-0a54-eb11-bf8d-00155d3c3708</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">1</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">0</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2022-02-11T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">3ab679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>PO Closed</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>On Schedule</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://myprojects.sharepoint.com/teams/gpols/_api/ProjectData/Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')</id>
+		<category term="ReportingData.Assignment" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link rel="edit" title="Assignment" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Baseline" type="application/atom+xml;type=feed" title="Baseline" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Baseline"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Project" type="application/atom+xml;type=entry" title="Project" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Project"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Resource" type="application/atom+xml;type=entry" title="Resource" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Resource"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Task" type="application/atom+xml;type=entry" title="Task" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/Task"/>
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/TimephasedData" type="application/atom+xml;type=feed" title="TimephasedData" href="Assignments(AssignmentId=guid'c1b679e2-0a54-eb11-bf8d-00155d3c3708',ProjectId=guid'fae84ae1-0a54-eb11-bf8d-00155d3c3708')/TimephasedData"/>
+		<title/>
+		<updated>2021-05-20T11:31:56Z</updated>
+		<author>
+			<name/>
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ProjectId m:type="Edm.Guid">fae84ae1-0a54-eb11-bf8d-00155d3c3708</d:ProjectId>
+				<d:AssignmentId m:type="Edm.Guid">c1b679e2-0a54-eb11-bf8d-00155d3c3708</d:AssignmentId>
+				<d:AssignmentActualCost m:type="Edm.Decimal">0.000000</d:AssignmentActualCost>
+				<d:AssignmentActualFinishDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:AssignmentActualFinishDate>
+				<d:AssignmentActualOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeCost>
+				<d:AssignmentActualOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentActualOvertimeWork>
+				<d:AssignmentActualRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularCost>
+				<d:AssignmentActualRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentActualRegularWork>
+				<d:AssignmentActualStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:AssignmentActualStartDate>
+				<d:AssignmentActualWork m:type="Edm.Decimal">0.000000</d:AssignmentActualWork>
+				<d:AssignmentACWP m:type="Edm.Decimal">0.000000</d:AssignmentACWP>
+				<d:AssignmentAllUpdatesApplied m:type="Edm.Boolean" m:null="true"/>
+				<d:AssignmentBCWP m:type="Edm.Decimal">0.000000</d:AssignmentBCWP>
+				<d:AssignmentBCWS m:type="Edm.Decimal">0.000000</d:AssignmentBCWS>
+				<d:AssignmentBookingDescription>Commited (hard) booking type</d:AssignmentBookingDescription>
+				<d:AssignmentBookingId m:type="Edm.Int32">0</d:AssignmentBookingId>
+				<d:AssignmentBookingName>Commited</d:AssignmentBookingName>
+				<d:AssignmentBudgetCost m:type="Edm.Decimal">0.000000</d:AssignmentBudgetCost>
+				<d:AssignmentBudgetMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetMaterialWork>
+				<d:AssignmentBudgetWork m:type="Edm.Decimal">0.000000</d:AssignmentBudgetWork>
+				<d:AssignmentCost m:type="Edm.Decimal">0.000000</d:AssignmentCost>
+				<d:AssignmentCostVariance m:type="Edm.Decimal">0.000000</d:AssignmentCostVariance>
+				<d:AssignmentCreatedDate m:type="Edm.DateTime">2021-01-11T12:45:31.45</d:AssignmentCreatedDate>
+				<d:AssignmentCreatedRevisionCounter m:type="Edm.Int32">1</d:AssignmentCreatedRevisionCounter>
+				<d:AssignmentCV m:type="Edm.Decimal">0.000000</d:AssignmentCV>
+				<d:AssignmentDelay m:type="Edm.Decimal">0.000000</d:AssignmentDelay>
+				<d:AssignmentFinishDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:AssignmentFinishDate>
+				<d:AssignmentFinishVariance m:type="Edm.Decimal">0.000000</d:AssignmentFinishVariance>
+				<d:AssignmentIsOverallocated m:type="Edm.Boolean">false</d:AssignmentIsOverallocated>
+				<d:AssignmentIsPublished m:type="Edm.Boolean">true</d:AssignmentIsPublished>
+				<d:AssignmentMaterialActualWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialActualWork>
+				<d:AssignmentMaterialWork m:type="Edm.Decimal">0.000000</d:AssignmentMaterialWork>
+				<d:AssignmentModifiedDate m:type="Edm.DateTime">2021-04-06T01:10:39.727</d:AssignmentModifiedDate>
+				<d:AssignmentModifiedRevisionCounter m:type="Edm.Int32">33</d:AssignmentModifiedRevisionCounter>
+				<d:AssignmentOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeCost>
+				<d:AssignmentOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentOvertimeWork>
+				<d:AssignmentPeakUnits m:type="Edm.Decimal">100.000000</d:AssignmentPeakUnits>
+				<d:AssignmentPercentWorkCompleted m:type="Edm.Int16">100</d:AssignmentPercentWorkCompleted>
+				<d:AssignmentRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRegularCost>
+				<d:AssignmentRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRegularWork>
+				<d:AssignmentRemainingCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingCost>
+				<d:AssignmentRemainingOvertimeCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeCost>
+				<d:AssignmentRemainingOvertimeWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingOvertimeWork>
+				<d:AssignmentRemainingRegularCost m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularCost>
+				<d:AssignmentRemainingRegularWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingRegularWork>
+				<d:AssignmentRemainingWork m:type="Edm.Decimal">0.000000</d:AssignmentRemainingWork>
+				<d:AssignmentResourcePlanWork m:type="Edm.Decimal">0.000000</d:AssignmentResourcePlanWork>
+				<d:AssignmentResourceType m:type="Edm.Int16">-3</d:AssignmentResourceType>
+				<d:AssignmentStartDate m:type="Edm.DateTime">2021-01-11T08:00:00</d:AssignmentStartDate>
+				<d:AssignmentStartVariance m:type="Edm.Decimal">0.000000</d:AssignmentStartVariance>
+				<d:AssignmentSV m:type="Edm.Decimal">0.000000</d:AssignmentSV>
+				<d:AssignmentType m:type="Edm.Int32">4</d:AssignmentType>
+				<d:AssignmentUpdatesAppliedDate m:type="Edm.DateTime" m:null="true"/>
+				<d:AssignmentVAC m:type="Edm.Decimal">0.000000</d:AssignmentVAC>
+				<d:AssignmentWork m:type="Edm.Decimal">0.000000</d:AssignmentWork>
+				<d:AssignmentWorkVariance m:type="Edm.Decimal">0.000000</d:AssignmentWorkVariance>
+				<d:IsPublic m:type="Edm.Boolean">false</d:IsPublic>
+				<d:ProjectName>(DEA) Global Trial Finder Base Business</d:ProjectName>
+				<d:ResourceId m:type="Edm.Guid">b067ce64-9588-4b18-bf54-3491f76419c9</d:ResourceId>
+				<d:ResourceName>Unassigned Resource</d:ResourceName>
+				<d:TaskId m:type="Edm.Guid">3cb679e2-0a54-eb11-bf8d-00155d3c3708</d:TaskId>
+				<d:TaskIsActive m:type="Edm.Boolean">true</d:TaskIsActive>
+				<d:TaskName>Approval for BB Item Received</d:TaskName>
+				<d:TimesheetClassId m:type="Edm.Guid">000047df-f395-462a-a1f2-7011fef3a122</d:TimesheetClassId>
+				<d:TypeDescription>Assignment type which indicates an assignment created for the empty task case. This assignment type is copied from the Published Database.</d:TypeDescription>
+				<d:TypeName>Empty Assignment</d:TypeName>
+				<d:CostType_R m:null="true"/>
+				<d:ResourceDepartments_R m:null="true"/>
+				<d:RBS_R m:null="true"/>
+				<d:FlagStatus_T m:type="Edm.Boolean" m:null="true"/>
+				<d:Health_T m:null="true"/>
+				<d:Role_R m:null="true"/>
+				<d:ResourceManager_R m:null="true"/>
+				<d:Skills_R m:null="true"/>
+				<d:TaskConstraintIndicator_T m:null="true"/>
+				<d:TaskStatus_T>Complete</d:TaskStatus_T>
+				<d:TaskDescriptionO365_T m:null="true"/>
+				<d:SynchronizetoO365_T m:type="Edm.Boolean" m:null="true"/>
+				<d:BucketNameO365_T m:null="true"/>
+				<d:GovernanceMilestone_T m:null="true"/>
+			</m:properties>
+		</content>
+	</entry>
+</feed>
