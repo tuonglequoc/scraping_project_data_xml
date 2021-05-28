@@ -5,17 +5,21 @@ import requests
 import os
 
 
+# Url prefix
 URL = "https://myprojects.sharepoint.com/teams/gpols/_api"   # Your API
 # URL = "http://localhost:8000/_api"     # For testing
 
+# Output file path
 PROJECT_FILEPATH = "ProjectData.csv"
 ASSIGNMENTS_FILEPATH = "Assignments.csv"
 TASKS_FILEPATH = "Tasks.csv"
 
+# Current working directory
 CWD = os.getcwd()
 
 
 def to_dict(tags: list):
+    """Convert a list of tag to dictionary"""
     result = {}
     for tag in tags:
         result[tag.name] = tag.get_text()
@@ -23,11 +27,13 @@ def to_dict(tags: list):
 
 
 def get_data_from_bs(bs_data):
+    """Get and convert to python data from bs content"""
     all_raw_data = bs_data.find_all("properties")
     return (to_dict(tag for tag in raw if type(tag) is Tag) for raw in all_raw_data)
 
 
 def get_data_from_url(url: str):
+    """Fetch data from an enpoint url"""
     print(f"Get data from url: {url}")
     res = requests.get(url)
     if res.status_code == 200:
@@ -38,18 +44,26 @@ def get_data_from_url(url: str):
 
 
 def main():
-    project_file = open(PROJECT_FILEPATH, 'w+', newline='')
-    assignments_file = open(ASSIGNMENTS_FILEPATH, 'w+', newline='')
-    tasks_file = open(TASKS_FILEPATH, 'w+', newline='')
+    """Main function"""
+
+    # Open file with write permission
+    project_file = open(PROJECT_FILEPATH, 'w', newline='')
+    assignments_file = open(ASSIGNMENTS_FILEPATH, 'w', newline='')
+    tasks_file = open(TASKS_FILEPATH, 'w', newline='')
+
+    # Define dict_writer variables
     project_dict_writer = None
     assignments_dict_writer = None
     tasks_dict_writer = None
 
     try:
+        # Project data
+        # Get xml data and scrap needed data
         bs_project_data = bs(get_data_from_url(f"{URL}/ProjectData"), "lxml-xml")
         all_projects_data = get_data_from_bs(bs_project_data)
 
         for project in all_projects_data:
+            # Write csv
             if not project_dict_writer:
                 project_dict_writer = csv.DictWriter(project_file, project.keys())
                 project_dict_writer.writeheader()
@@ -59,10 +73,13 @@ def main():
 
             project_id = project.get("ProjectId")
 
+            # Assignments data
+            # Get xml data and scrap needed data
             bs_assignment_data = bs(get_data_from_url(f"{URL}/ProjectData/Projects(guid'{project_id}')/Assignments"), "lxml-xml")
             all_assignment_data = get_data_from_bs(bs_assignment_data)
 
             for assignment in all_assignment_data:
+                # Write csv
                 if not assignments_dict_writer:
                     assignments_dict_writer = csv.DictWriter(assignments_file, assignment.keys())
                     assignments_dict_writer.writeheader()
@@ -70,10 +87,13 @@ def main():
                 else:
                     assignments_dict_writer.writerow(assignment)
 
+            # Tasks data
+            # Get xml data and scrap needed data
             bs_task_data = bs(get_data_from_url(f"{URL}/ProjectData/Projects(guid'{project_id}')/Tasks"), "lxml-xml")
             all_task_data = get_data_from_bs(bs_task_data)
 
             for task in all_task_data:
+                # Write csv
                 if not tasks_dict_writer:
                     tasks_dict_writer = csv.DictWriter(tasks_file, task.keys())
                     tasks_dict_writer.writeheader()
@@ -83,6 +103,7 @@ def main():
     except Exception as e:
         print(f"ERROR: {e}")
     finally:
+        # Close file
         project_file.close()
         assignments_file.close()
         tasks_file.close()
