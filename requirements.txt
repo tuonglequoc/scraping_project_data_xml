@@ -1,3 +1,5 @@
 bs4==0.0.1
 lxml==4.6.3
 requests==2.25.1
+selenium==3.141.0
+chromedriver-py==91.0.4472.19

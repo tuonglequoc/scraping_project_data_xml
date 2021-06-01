@@ -1,9 +1,11 @@
-from bs4 import BeautifulSoup as bs
-from bs4.element import Tag
 import csv
-import requests
 import os
 
+import requests
+from bs4 import BeautifulSoup as bs
+from bs4.element import Tag
+from selenium import webdriver
+from chromedriver_py import binary_path
 
 # Url prefix
 URL = "https://myprojects.sharepoint.com/teams/gpols/_api"   # Your API
@@ -32,15 +34,24 @@ def get_data_from_bs(bs_data):
     return (to_dict(tag for tag in raw if type(tag) is Tag) for raw in all_raw_data)
 
 
+# def get_data_from_url(url: str):
+#     """Fetch data from an enpoint url"""
+#     print(f"Get data from url: {url}")
+#     res = requests.get(url)
+#     if res.status_code == 200:
+#         print("200 OK")
+#         return res.text
+#     else:
+#         raise Exception(f"Request failed. Status: {res.status_code}: {res.text}")
+
+
 def get_data_from_url(url: str):
-    """Fetch data from an enpoint url"""
     print(f"Get data from url: {url}")
-    res = requests.get(url)
-    if res.status_code == 200:
-        print("200 OK")
-        return res.text
-    else:
-        raise Exception(f"Request failed. Status: {res.status_code}: {res.text}")
+    driver = webdriver.Chrome(executable_path=binary_path)
+    driver.get(url)
+    xml_data = driver.find_element_by_id("webkit-xml-viewer-source-xml").get_attribute("innerHTML")
+    driver.close()
+    return xml_data
 
 
 def main():
