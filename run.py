@@ -49,7 +49,7 @@ def get_data_from_url(url: str):
     print(f"Get data from url: {url}")
     driver = webdriver.Chrome(executable_path=binary_path)
     driver.get(url)
-    xml_data = driver.find_element_by_id("webkit-xml-viewer-source-xml").get_attribute("innerHTML")
+    xml_data = driver.page_source
     driver.close()
     return xml_data
 
