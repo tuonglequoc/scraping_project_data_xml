@@ -11,6 +11,11 @@ from chromedriver_py import binary_path
 URL = "https://myprojects.sharepoint.com/teams/gpols/_api"   # Your API
 # URL = "http://localhost:8000/_api"     # For testing
 
+USR_DATA_DIR = "/home/tuongle/.config/google-chrome"
+
+options = webdriver.ChromeOptions()
+options.add_argument(f"user-data-dir={USR_DATA_DIR}")
+
 # Output file path
 PROJECT_FILEPATH = "ProjectData.csv"
 ASSIGNMENTS_FILEPATH = "Assignments.csv"
@@ -47,9 +52,9 @@ def get_data_from_bs(bs_data):
 
 def get_data_from_url(url: str):
     print(f"Get data from url: {url}")
-    driver = webdriver.Chrome(executable_path=binary_path)
+    driver = webdriver.Chrome(executable_path=binary_path, chrome_options=options)
     driver.get(url)
-    xml_data = driver.page_source
+    xml_data = driver.find_element_by_id("webkit-xml-viewer-source-xml").get_attribute("innerHTML")
     driver.close()
     return xml_data
 
